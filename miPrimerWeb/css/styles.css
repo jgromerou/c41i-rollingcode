@@ -1,9 +1,12 @@
-.header {
-  background-color: #0501fd;
-  margin-top: 2rem;
-  position: relative;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.logo {
-  width: 3rem;
+nav {
+  background-color: gray;
+}
+
+nav a {
+  color: #ffffff;
 }
