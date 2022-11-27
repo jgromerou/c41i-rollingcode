@@ -4,10 +4,51 @@
 }
 
 nav {
+  padding: 30px;
   background-color: #000000;
+}
+
+.banner {
+  padding: 30px;
+  background-color: #669eec;
+  text-align: center;
+  color: white;
+  line-height: 25px;
 }
 
 nav a {
   color: #ffffff;
+  padding: 40px;
 }
 
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+.titulo {
+  color: #0a51b4;
+  padding: 5px 10px;
+  line-height: 35px;
+}
+
+p {
+  padding: 10px;
+}
+
+#titulo-imagen {
+  margin: 30px 20px;
+  color: #669eec;
+  font-size: 1.6rem;
+}
+
+#parrafo {
+  margin: 20px 10px;
+}
+
+footer {
+  padding: 20px 0;
+  background-color: #000000;
+  color: white;
+  text-align: center;
+}
