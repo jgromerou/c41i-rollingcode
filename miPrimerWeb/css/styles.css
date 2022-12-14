@@ -5,6 +5,7 @@
 
 nav {
   padding: 30px;
+  width: 100%;
   background-color: #000000;
 }
 
@@ -14,6 +15,10 @@ nav {
   text-align: center;
   color: white;
   line-height: 25px;
+}
+
+header {
+  display: flex;
 }
 
 nav a {
@@ -51,4 +56,73 @@ footer {
   background-color: #000000;
   color: white;
   text-align: center;
+  bottom: 0px;
+}
+
+.rectangulo {
+  border: 1px solid green;
+}
+
+.contenedorFlexible {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.contenedorPosition {
+  border: 1px solid red;
+  width: 150px;
+  height: 150px;
+  color: white;
+}
+
+.contenedorPosition div {
+  border: 1px solid red;
+  width: 150px;
+  height: 150px;
+  color: white;
+}
+
+#boxRojo {
+  background-color: red;
+}
+
+#boxAmarillo {
+  background-color: yellow;
+}
+
+#boxAzul {
+  background-color: blue;
+}
+
+@media all and (max-width: 767px) {
+  #centrarImagen img {
+    width: 100%;
+  }
+
+  nav a {
+    padding: 13px;
+  }
+
+  .contenedorFlexible {
+    flex-wrap: wrap;
+  }
+
+  .contenedorFlexible aside {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #centrarImagen img {
+    width: 100%;
+  }
+
+  .contenedorFlexible aside {
+    width: 100%;
+    background-color: red;
+    justify-content: center;
+  }
 }

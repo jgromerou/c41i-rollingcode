@@ -1,0 +1,18 @@
+.navbar-expand-md .navbar-collapse {
+  justify-content: flex-end;
+}
+.cardsFlexbox {
+  display: flex;
+  justify-content: space-evenly;
+}
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 3px solid rgba(0, 0, 0);
+}
+@media all and (max-width: 767px) {
+  .cardsFlexbox {
+    flex-wrap: wrap;
+  }
+}
