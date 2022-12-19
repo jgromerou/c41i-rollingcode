@@ -1,0 +1,103 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /* 1REM = 10px */
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  font-size: 1.6rem;
+  line-height: 2;
+}
+
+.navbar-expand-md .navbar-collapse {
+  justify-content: flex-end;
+}
+.cardsFlexbox {
+  display: flex;
+  justify-content: space-evenly;
+}
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 3px solid rgba(0, 0, 0);
+}
+
+.tamanioBanner {
+  height: 30rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.tituloHeader {
+  font-size: 3rem;
+}
+
+.tituloFooter {
+  font-size: 3rem;
+}
+
+.br {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+
+.img-width {
+  width: 100%;
+  object-fit: cover;
+  padding: 0 0.5rem;
+}
+
+.icon-size {
+  font-size: 3rem;
+}
+
+.title-accordion-size {
+  font-size: 2rem;
+}
+
+/*------------Pantalla Pequeña------------*/
+@media screen and (max-width: 767px) {
+  .cardsFlexbox {
+    flex-wrap: wrap;
+  }
+  .tituloHeader {
+    font-size: 4rem;
+  }
+
+  .tituloFooter {
+    font-size: 4rem;
+  }
+  .title-accordion-size {
+    font-size: 3rem;
+  }
+}
+
+/*------------Pantalla Mediana------------*/
+@media screen and (min-width: 768px) and (max-width: 1119px) {
+  .card-text {
+    font-size: 1.6rem;
+  }
+  .tituloHeader {
+    font-size: 3.5rem;
+  }
+
+  .tituloFooter {
+    font-size: 3.5rem;
+  }
+
+  .title-accordion-size {
+    font-size: 4rem;
+  }
+}
+
+/*------------Pantalla Grande------------*/
+@media screen and (min-width: 1200px) {
+  .img404-size {
+    width: 100rem;
+  }
+}
