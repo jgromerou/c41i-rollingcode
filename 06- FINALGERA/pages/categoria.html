@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Plataforma de streaming Rolling Play" />
+    <meta
+      name="keywords"
+      content="Paramount, series, peliculas"
+    />
+    <meta name="EQUIPO1" content="a" />
+    <title>ProyFinal1</title>
+    <link rel="stylesheet" href="./css/stylecat.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    
+</head>
+<body >
+    <header>
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top p-3">
+        <div class="container">
+          <a class="navbar-brand" href="../index.html"
+            ><img class="iconoNavbar" src="..." alt="logoRollingPlayNavbar"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  PAÍSES
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">ARGENTINA</a></li>
+                  <li><a class="dropdown-item" href="#">BOLIVIA</a></li>
+                  <li><a class="dropdown-item" href="#">BRASIL</a></li>
+                  <li><a class="dropdown-item" href="#">CHILE</a></li>
+                  <li><a class="dropdown-item" href="#">COLOMBIA</a></li>
+                  <li><a class="dropdown-item" href="#">URUGUAY</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item mx-3">
+                <a class="nav-link" aria-current="page" href="#">PELÍCULAS</a>
+              </li>
+
+              <li class="nav-item me-3">
+                <a class="nav-link" aria-current="page" href="#">SERIES</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  GÉNEROS
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">ACCIÓN</a></li>
+                  <li><a class="dropdown-item" href="#">AVENTURA</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">CIENCIA FICCIÓN </a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">COMEDIA</a></li>
+                  <li><a class="dropdown-item" href="#">DOCUMENTAL</a></li>
+                  <li><a class="dropdown-item" href="#">DRAMA</a></li>
+                  <li><a class="dropdown-item" href="#">ROMÁNTICAS</a></li>
+                  <li><a class="dropdown-item" href="#">TERROR</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="buscar">
+              <input
+                class="form-control me-2"
+                type="buscar"
+                placeholder="realizar búsqueda"
+                aria-label="Search"
+              />
+              <a
+                class="btn btn-outline-success" 
+                type="submit"
+                href="./error404.html"
+              >
+                <i class="bi bi-search fs-4"></i>
+              </a>
+              <div class="dropdown ms-5">
+                <button
+                  class="btn btn-primary dropdown-toggle fs-4 text-uppercase"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <i class="bi bi-person-circle"></i> Belu
+                </button>
+                <ul class="dropdown-menu">
+                  <li>
+                    <button class="dropdown-item" type="button">
+                      Mi Cuenta
+                    </button>
+                  </li>
+                  <li>
+                    <button class="dropdown-item" type="button">Ayuda</button>
+                  </li>
+                  <li>
+                    <button class="dropdown-item" type="button">
+                      Cerrar Sesión
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </form>
+
+          </div>
+        </div>
+      </nav>
+    </header>
+        <main class="container my-4 ">
+      <h1 class="display-1 text-center">Peliculas Argentinas</h1>
+      <hr />
+      <section class="row ">
+        <aside class="col-md-6 col-lg-3 mb-3">
+          <article class="card">
+            <img
+              src="../img/peliArgentina1985.jpg"
+              class="card-img-top"
+              alt="Pelicula Argentina 1895"
+            />
+            <div class="card-body">
+              <h5 class="card-title"></h5> <!--Aca iria el titulo-->
+              <p class="card-text">
+                Durante la década de 1980, un grupo de abogados investiga y lleva a juicio a los responsables de la dictadura cívico-militar argentina.
+              </p>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalProducto">Ver mas</button>
+            </div>
+          </article>
+        </aside>
+        <aside class="col-md-6 col-lg-3 mb-3 ">
+          <article class="card ">
+            <img
+              src="../img/peliElClan.jpg"
+              class="card-img-top"
+              alt="Pelicula El clan"
+            />
+            <div class="card-body">
+             
+              <p class="card-text">
+                Historia real de una familia argentina que se dedicaba al secuestro y el asesinato durante la década de 1980.
+              </p>
+              <a href="error404.html" class="btn btn-primary">Ver mas</a>
+            </div>
+          </article>
+        </aside>
+        <aside class="col-md-6 col-lg-3 mb-3">
+          <article class="card">
+            <img
+              src="../img/peliEsperandoLaCarroza.jpg"
+              class="card-img-top "
+              alt="Medialuna"
+            />
+            <div class="card-body">
+             
+              <p class="card-text">
+                La confusión invade a una familia luego de que Mamá Cora, una anciana de 80 años, desaparece. Aunque algunos creen que ha muerto...
+              </p>
+              <a href="error404.html" class="btn btn-primary">Ver mas</a>
+            </div>
+          </article>
+        </aside>
+        <aside class="col-md-6 col-lg-3 mb-3">
+          <article class="card">
+            <img
+              src="../img/peliLaOdiseaDeLosGiles.jpg"
+              class="card-img-top"
+              alt="Medialuna"
+            />
+            <div class="card-body">
+            
+              <p class="card-text">
+               Un grupo de vecinos descubre que perdieron todos los ahorros que tenían debido a una estafa y arman un plan para recuperar lo que les pertenece.
+              </p>
+              <a href="error404.html" class="btn btn-primary">Ver mas</a>
+            </div>
+          </article>
+        </aside>
+        <aside class="col-md-6 col-lg-3 mb-3">
+          <article class="card">
+            <img
+              src="../img/peliYoAdolescente.jpg"
+              class="card-img-top"
+              alt="Medialuna"
+            />
+            <div class="card-body">
+            
+              <p class="card-text">
+                Luego de la muerte de un amigo, un adolescente escribe sobre su vida diaria, pero cae en una crisis mientras descubre su sexualidad.
+              </p>
+              <a href="error404.html" class="btn btn-primary">Ver mas</a>
+            </div>
+          </article>
+        </aside>
+        <aside class="col-md-6 col-lg-3 mb-3">
+          <article class="card">
+            <img
+              src="../img/peliLaHisotriaOficial.jpg"
+              class="card-img-top"
+              alt="Medialuna"
+            />
+            <div class="card-body">
+              
+              <p class="card-text">
+                Una mujer sospecha que su hija adoptiva es la hija de un prisionero político asesinado.
+              </p>
+              <a href="error404.html" class="btn btn-primary">Ver mas</a>
+            </div>
+          </article>
+        </aside>
+        <aside class="col-md-6 col-lg-3 mb-3">
+          <article class="card">
+            <img
+              src="../img/peliElRoboDelSiglo.jpg"
+              class="card-img-top"
+              alt="Medialuna"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                 Los policías aguardan la voz de su jefe. Miguel Sileo, el negociador, espera hablar con Vitette, uno de los líderes de la banda de ladrones que entró a la sucursal del Banco Río.
+              </p>
+              <a href="error404.html" class="btn btn-primary">Ver mas</a>
+            </div>
+          </article>
+        </aside>
+        <aside class="col-md-6 col-lg-3 mb-3">
+          <article class="card">
+            <img
+              src="../img/peliElSecretoDeSusOjos.jpg"
+              class="card-img-top"
+              alt="Medialuna"
+            />
+            <div class="card-body">
+             
+              <p class="card-text">
+                Un juez tiene dudas acerca de los planes de un oficial de justicia retirado que intenta descubrir al culpable de la violación y el asesinato de una joven.
+              </p>
+              <a href="error404.html" class="btn btn-primary">Ver mas</a>
+            </div>
+          </article>
+        </aside>
+        <aside class="col-md-6 col-lg-3 mb-3">
+          <article class="card">
+            <img
+              src="../img/peliRelatosSalvajes.jpg"
+              class="card-img-top"
+              alt="Medialuna"
+            />
+            <div class="card-body">
+             
+              <p class="card-text">
+                Relatos salvajes es una película hispano-argentina de antología y comedia negra-drama de 2014.
+              </p>
+              <a href="error404.html" class="btn btn-primary">Ver mas</a>
+            </div>
+          </article>
+        </aside>
+      </section>
+      <!-- Modal de trailers-->
+      <section
+        class="modal fade"
+        id="modalProducto"
+        tabindex="-1"
+        aria-labelledby="modalProductoLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title fs-5" id="modalProductoLabel">
+                Argentina 1985 
+              </h2>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="ratio ratio-16x9">
+              <iframe width="1134" height="638" src="https://www.youtube.com/embed/EDK2FtU5oxg" title="Argentina, 1985 | Tráiler oficial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+
+            <div class="modal-body">
+              <!--img src="../img/peli1985segunda.jpg" alt="Medialuna" class="w-100 mb-3"-->
+              <p>Está protagonizada por Ricardo Darín, Peter Lanzani, Alejandra Flechner y Norman Briski. Relata el caso real de la tarea del fiscal Julio César Strassera y su equipo, en el célebre Juicio a las Juntas Militares (las tres primeras juntas) que habían instalado un régimen de terrorismo de Estado con miles de desaparecidos y torturados, durante la última dictadura que gobernó la Argentina hasta 1983.
+                </p>
+            </div>
+            <div class="modal-footer">
+              <a class="btn btn-primary" href="./error404.html" role="button">VER PELICULA</a>
+             
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    
+    <footer class="bg-dark text-secondary py-4">
+      <section class="container">
+        <div class="row">
+          <aside class="col-md-4 mt-3 mb-2">
+            <a class="navbar-brand" href="./index.html"
+              ><img class="iconoFooter" src="..." alt="logoRollingPlay"
+            /></a>
+          </aside>
+
+          <aside class="col-md-4 my-2">
+            <ul>
+              <li>
+                <a
+                  class="text-decoration-none link-secondary"
+                  href="./pages/Noosotros.html"
+                  target="_blank"
+                  >Acerca de nosotros</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-decoration-none link-secondary"
+                  href="./pages.html/error 404"
+                  target="_blank"
+                  >Preguntas frecuentes</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-decoration-none link-secondary"
+                  href="./pages.html/error 404"
+                  target="_blank"
+                  >Suscripciones</a
+                >
+              </li>
+            </ul>
+          </aside>
+
+          <aside class="col-md-4 my-2">
+            <ul>
+              <li>
+                <a
+                  class="text-decoration-none link-secondary"
+                  href="./pages/consultas.html"
+                  target="_blank"
+                  >Contactanos</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-decoration-none link-secondary"
+                  href="./pages/error404.html"
+                  target="_blank"
+                  >Prensa</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-decoration-none link-secondary"
+                  href="./pages/error404.html"
+                  target="_blank"
+                  >Trabaja con Nosotros</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-decoration-none link-secondary"
+                  href="./pages/error404.html"
+                  target="_blank"
+                  >Términos de uso</a
+                >
+              </li>
+            </ul>
+          </aside>
+
+          <aside class="col-md-4 mt-2 mb-3">
+            <h4>Seguinos en nuestras redes</h4>
+            <div class="text-md-start">
+              <a href="./pages.html/error 404" class="link-secondary"
+                ><i class="bi bi-facebook fs-1"></i
+              ></a>
+
+              <a href="./pages.html/error 404" class="link-secondary"
+                ><i class="bi bi-instagram fs-1 mx-3"></i
+              ></a>
+              <a href="./pages.html/error 404" class="link-secondary"
+                ><i class="bi bi-twitter fs-1 me-3"></i
+              ></a>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+</body>
+</html>

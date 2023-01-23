@@ -1,0 +1,451 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;700&display=swap");
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+/* belu */
+
+/* html {
+  box-sizing: border-box;
+  font-size: 62.5%; 
+  font-family: "Red Hat Display", sans-serif;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  font-size: 1.6rem;
+  line-height: 2;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+} */
+
+/* .iconoNavbar {
+  width: 100%;
+  height: 4vh;
+  object-fit: cover;
+} */
+
+.enlaces {
+  box-shadow: none;
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+
+.imgformat {
+  height: 100vh;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.error404 {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.contenedor {
+  margin: 30px;
+}
+
+/* body {
+  background-color: rgb(30, 30, 30);
+  color: aliceblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+} */
+h3 {
+  text-align: center;
+  color: #ffffff;
+}
+.contacto-grupo {
+  padding: 3em;
+}
+.contacto-form {
+  background-color: rgb(27, 27, 27);
+  margin: 0;
+  padding: 0.5em;
+}
+button,
+input,
+textarea {
+  width: 100%;
+  padding: 0.7em;
+  border: none;
+  background-color: rgb(31, 31, 31);
+  outline: 0;
+  border-bottom: 1px solid #1a6ab6;
+  color: #fff;
+}
+button {
+  background: #0b5ed7;
+  border: 0;
+  text-transform: uppercase;
+  color: rgb(255, 254, 254);
+}
+form div {
+  margin: 0;
+  padding: 1em;
+}
+.contacto-info {
+  background: rgb(39, 38, 38);
+}
+h4,
+ul,
+.contacto-info p {
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer .iconoFooter {
+  max-width: 250px;
+  height: 10vh;
+  object-fit: contain;
+}
+
+footer a {
+  font-size: 14px;
+  text-align: start;
+}
+
+/* GERARDO css */
+/* Globales */
+h1,
+h2,
+h3 {
+  font-family: "Red Hat Display", sans-serif;
+  margin: 0 0 2rem 0;
+  text-align: center;
+}
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 2.4rem;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+/* .contenedor {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+} */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* INDEX */
+
+.principal-contenido-mitad {
+  max-width: 90%;
+  text-align: start
+}
+
+.boton {
+  background-color: #0b5ed7;
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 1rem;
+  padding: 2rem 1rem;
+  font-size: 2rem;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease-out;
+  text-align: center;
+  border: none;
+  width: 100%;
+  size: 30%;
+}
+
+.btn-sinfondo {
+  background-color: black;
+}
+.boton:hover {
+  color: white;
+  background-color: #0b5ed7;
+  cursor: pointer;
+}
+
+/** Utilidades */
+.text-center {
+  text-align: center;
+}
+
+.zoom {
+  transition: transform 0.2s;
+}
+
+.zoom:hover {
+  transform: scale(1.2);
+  border-radius: 1rem;
+}
+
+/* Header y Navegacion */
+
+/* .header {
+  background-image: url(../src/img/header.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 3rem 0 20rem 0;
+} */
+
+/* Primera imagen */
+.card-img {
+  height: 4vh;
+}
+
+.series-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  padding: 3rem 0;
+}
+
+/* Proyecto Rolling play */
+
+.thumbnail {
+  width: 100%;
+}
+
+.imgformat {
+  height: 100vh;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.imgformatsmall {
+  width: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+  height: auto;
+}
+
+/* .iconParamount {
+  width: 100%;
+  height: 10vh;
+  object-fit: cover;
+}
+
+.iconParamountFooter {
+  max-width: 250px;
+  height: 10vh;
+  object-fit: contain;
+} */
+
+ul {
+  list-style-type: none;
+}
+
+footer a {
+  font-size: 14px;
+}
+
+.card-center {
+  margin: auto 20px;
+}
+
+.series {
+  /* background-image: url(/img/fondosindex/teahub.jpg); */
+  /* background-size: cover;
+  background-position: center; */
+
+  padding: 2rem 0 2rem 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.seriessinimagen {
+  background-size: cover;
+  background-position: center;
+  padding: 2rem 0 2rem 0;
+}
+
+.img-detalle-serie {
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+  object-position: center center;
+}
+
+/* card de series */
+.series-grid {
+  grid-template-columns: repeat(4, 30rem);
+  column-gap: 4rem;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+.serie {
+  scroll-snap-align: center;
+}
+
+.serie-imagen {
+  border-radius: 1rem;
+  width: 250px;
+  object-fit: cover;
+}
+
+/* PAG. CONTACTO
+
+
+body{
+background-color: rgb(30, 30, 30);
+color: aliceblue;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h3{
+    text-align: center;
+    color: #ffffff;
+}
+.contacto-grupo{
+    padding: 3em;
+}
+.contacto-form{
+    background-color: rgb(27, 27, 27);
+    margin: 0;
+    padding: 0.5em;
+}
+button,input,textarea{
+width: 100%;
+padding: 0.7em;
+border: none;
+background-color: rgb(31, 31, 31);
+outline: 0;
+border-bottom: 1px solid #1a6ab6;
+color: #fff;
+}
+button{
+    background: #32b9e5;
+    border: 0;
+    text-transform: uppercase;
+    color: rgb(255, 254, 254);
+}
+form div{
+    margin: 0;
+    padding: 1em;
+}
+.contacto-info{
+    background: rgb(39, 38, 38);
+}
+h4,ul,.contacto-info p{
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+
+.iconoFooter {
+    max-width: 250px;
+    height: 10vh;
+    object-fit: contain;
+  }
+  
+  footer a {
+    font-size: 14px;
+  }
+  
+  i bootstrap-icons {
+    @media screen and (max-width: 767px) footer a {
+      font-size: 20px;
+    }
+  } */
+
+/*------------Pantalla Pequeña------------*/
+
+/* Belu */
+footer a {
+  font-size: 20px;
+}
+
+/* gerardo */
+@media screen and (max-width:767px) {
+  h5 {
+    display: none;
+  }
+  .thumbnail img {
+    height: 50vh;
+  }
+  .cardsFlexbox {
+    flex-wrap: wrap;
+  }
+  .tituloHeader {
+    font-size: 3.5rem;
+  }
+  
+  .tituloFooter {
+    font-size: 3.5rem;
+  }
+  .title-accordion-size {
+    font-size: 3rem;
+  }
+  .margin-aside {
+    margin: 1rem;
+  }
+  
+  .thumbnail {
+    width: 100%;
+  }
+  .series {
+    flex-direction: column;
+  }  
+}
+
+/*------------Pantalla Mediana------------*/
+
+@media screen and (min-width: 768px) and (max-width: 1119px) {
+  /* gerardo */
+  .card-text {
+    font-size: 1.6rem;
+  }
+  .tituloHeader {
+    font-size: 3.5rem;
+  }
+
+  .tituloFooter {
+    font-size: 3.5rem;
+  }
+
+  .title-accordion-size {
+    font-size: 2rem;
+  }
+
+  .thumbnail {
+    width: 100%;
+  }
+  .series {
+    flex-direction: column;
+  }
+}
+
+/*------------Pantalla Grande------------*/
+@media screen and (min-width: 1200px) {
+  /* gerardo */
+  .img404-size {
+    width: 100rem;
+  }
+  .series-grid {
+    grid-template-columns: repeat(4, 1fr);
+    overflow-x: hidden;
+  }
+}

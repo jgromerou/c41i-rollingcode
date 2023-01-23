@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;700&display=swap');
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /* 1REM = 10px */
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 1.6rem;
+  line-height: 2;
+  /* display: flex;
+  flex-direction: column;
+  min-height: 100vh; */
+}
+
+/* Globales */
+h1,
+h2,
+h3 {
+  font-family: 'Red Hat Display', sans-serif;
+  margin: 0 0 2rem 0;
+}
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3.2rem;
+}
+
+h3 {
+  font-size: 2.4rem;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+.contenedor {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+.imagen-icono {
+  width: 30px;
+}
+.boton {
+  background-color: rgb(11, 94, 215);
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease-out;
+  text-align: center;
+  border: none;
+  width: 100%;
+}
+.boton-sinfondo {
+  background-color: black;
+}
+.boton:hover {
+  background-color: rgb(7, 7, 7);
+  color: white;
+  cursor: pointer;
+}
+
+/** Utilidades */
+.text-center {
+  text-align: center;
+}
+
+.zoom {
+  transition: transform 0.2s;
+}
+
+.zoom:hover {
+  transform: scale(1.2);
+  border-radius: 1rem;
+}
+
+/** Header y Navegacion **/
+
+.header {
+  background-image: url(../src/img/header.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 3rem 0 20rem 0;
+}
+
+/** Primera imagen **/
+.card-img {
+  height: 4vh;
+}
+
+.card-trailer {
+  max-width: 300px;
+  height: auto;
+  object-fit: cover;
+}
+
+.series-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  padding: 3rem 0;
+}
+
+/**Footer**/
+footer {
+  background-color: #f2f2f2;
+  border-top: 1px solid #f1f1f1;
+  padding-top: 5rem;
+}
+
+/** Proyecto Rolling play **/
+
+.thumbnail {
+  width: 100%;
+}
+
+.imgformat {
+  height: 100vh;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.iconNavbar {
+  width: 100%;
+  height: 3vh;
+  object-fit: cover;
+}
+
+.iconoFooter {
+  max-width: 250px;
+  height: 10vh;
+  object-fit: contain;
+}
+
+ul {
+  list-style-type: none;
+}
+
+footer a {
+  font-size: 14px;
+}
+
+.principal-contenido-mitad {
+  max-width: 100%;
+}
+
+.card-center {
+  margin: auto 20px;
+}
+
+.series {
+  background-image: url(/img/fondosindex/teahub.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 2rem 0 2rem 0;
+}
+
+.seriesargentinas {
+  background-image: url(/img/fondosindex/seleccion-argentina.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 2rem 0 2rem 0;
+}
+
+.seriesbrasileras {
+  background-image: url(/img/fondosindex/pngtree-brazil.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 2rem 0 2rem 0;
+}
+
+.img-detalle-serie {
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+  object-position: center center;
+}
+
+/** card de series **/
+.series-grid {
+  grid-template-columns: repeat(4, 30rem);
+  column-gap: 4rem;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+.serie {
+  scroll-snap-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.serie-imagen {
+  border-radius: 1rem;
+  width: 250px;
+  object-fit: cover;
+}
+
+/*------------Pantalla Pequeña------------*/
+@media screen and (max-width: 767px) {
+  h5 {
+    display: none;
+  }
+  .thumbnail img {
+    height: 50vh;
+  }
+
+  .seccion {
+    text-align: center;
+  }
+  .card-trailer {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .cardsFlexbox {
+    flex-wrap: wrap;
+  }
+  .tituloHeader {
+    font-size: 3.5rem;
+  }
+
+  .tituloFooter {
+    font-size: 3.5rem;
+  }
+  .title-accordion-size {
+    font-size: 3rem;
+  }
+  .margin-aside {
+    margin: 1rem;
+  }
+
+  .principal-contenido-mitad {
+    text-align: center;
+  }
+
+  .thumbnail {
+    width: 100%;
+  }
+
+  .formulariopadding {
+    padding: 5px 10px;
+  }
+}
+
+/*------------Pantalla Mediana------------*/
+@media screen and (min-width: 768px) and (max-width: 1119px) {
+  .card-text {
+    font-size: 1.6rem;
+  }
+  .tituloHeader {
+    font-size: 3.5rem;
+  }
+
+  .tituloFooter {
+    font-size: 3.5rem;
+  }
+
+  .title-accordion-size {
+    font-size: 2rem;
+  }
+  .principal-contenido-mitad {
+    text-align: center;
+  }
+  .thumbnail {
+    width: 100%;
+  }
+
+  .seccion {
+    text-align: center;
+  }
+
+  .iconNavbar {
+    height: 6vh;
+  }
+}
+
+/*------------Pantalla Grande------------*/
+@media screen and (min-width: 1200px) {
+  .img404-size {
+    width: 100rem;
+  }
+  .series-grid {
+    grid-template-columns: repeat(4, 1fr);
+    overflow-x: hidden;
+  }
+
+  .iconNavbar {
+    height: 8vh;
+  }
+}
