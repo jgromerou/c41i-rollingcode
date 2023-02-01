@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ProyFinal1</title>
+    <meta name="keywords" content="ProyFinal" />
+    <meta name="author" content="equipo1" />
+    <meta name="description" content="proyFinal1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark p-3 fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="../pages/principal.html"
+            ><img
+              class="iconNavbar"
+              src="../img/logo.jpeg"
+              alt="logoRollingPlayNavbar"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item mx-3">
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="/pages/peliculas.html"
+                  >PELÍCULAS</a
+                >
+              </li>
+
+              <li class="nav-item me-3">
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="/pages/series.html"
+                  >SERIES</a
+                >
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="./principal.html"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  GÉNEROS
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="./generos/generoAccion0.html"
+                      >ACCIÓN</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="./generos/generoAventura0.html"
+                      >AVENTURA</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="./generos/generoCiencia0.html"
+                      >CIENCIA FICCIÓN
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="./generos/generoComedia0.html"
+                      >COMEDIA</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="./generos/generoDocumental0.html"
+                      >DOCUMENTAL</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./generos/generoDrama0.html"
+                      >DRAMA</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="./generos/generoRomantica0.html"
+                      >ROMÁNTICAS</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./generos/generoTerror0.html"
+                      >TERROR</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="buscar">
+              <input
+                class="form-control me-2"
+                type="buscar"
+                placeholder="realizar búsqueda"
+                aria-label="Search"
+              />
+              <a
+                class="btn btn-outline-success"
+                type="submit"
+                href="./error404.html"
+              >
+                <i class="bi bi-search fs-4"></i>
+              </a>
+              <div class="dropdown ms-5">
+                <button
+                  class="btn btn-primary dropdown-toggle fs-4 text-uppercase"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <i class="bi bi-person-circle"></i> Belu
+                </button>
+                <ul class="dropdown-menu">
+                  <li>
+                    <button class="dropdown-item" type="button">
+                      <a href="./error404.html">Mi Cuenta</a>
+                    </button>
+                  </li>
+                  <li>
+                    <button class="dropdown-item" type="button">
+                      <a href="./error404.html">Ayuda</a>
+                    </button>
+                  </li>
+                  <li>
+                    <button class="dropdown-item" type="button">
+                      <a href="/index.html">Cerrar Sesión</a>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-fluid rounded-0 px-0">
+      <section class="card border-0 rounded-0 text-bg-dark">
+        <img
+          src="../img/detallesMasterchef/Masterchef-Celebrity-nueva-temporada.jpg.webp"
+          class="card-img opacity-25 img-detalle-serie"
+          alt="imagen masterchef fondo"
+        />
+        <div class="card-img-overlay">
+          <h5 class="card-title display-5 fw-bold my-5">Masterchef</h5>
+          <h1 class="card-title display-1 fw-bold">
+            MasterChef Celebrity Argentina
+          </h1>
+          <p class="card-text">
+            <strong>T1 E1</strong><small> Episodio 1</small>
+          </p>
+          <p class="card-text">
+            Se presentan los jurados y los participantes del certamen. A través
+            de un juego se decide quienes cocinan primero. Se arman dos equipos
+            que realizan el menú para un viaje en crucero.
+          </p>
+        </div>
+      </section>
+
+      <!-- Accordion -->
+      <section class="accordion thumbnail" id="accordionPanelsStayOpen">
+        <div
+          class="accordion-item text-light border-dark bg-dark rounded-0 pt-5"
+        >
+          <h2 class="accordion-header" id="headingOne">
+            <button
+              class="accordion-button text-bg-dark border-warning"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+              <strong class="text-white fs-2 py-2">Temporada 1</strong>
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse show"
+            aria-labelledby="headingOne"
+          >
+            <section
+              class="row justify-content-start accordion-body text-bg-dark mx-2"
+            >
+              <aside class="col-md-6 col-lg-3 mb-3">
+                <article class="card text-bg-dark">
+                  <img
+                    src="../img/detallesMasterchef/masterchef11.jpg"
+                    class="card-img-top"
+                    alt="imagen de croissant"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <strong class="pe-2">T1</strong>- 17/03/2017 - 50 min
+                    </h5>
+                    <p class="card-text">Capitulo 1</p>
+                    <button
+                      class="btn btn-primary"
+                      data-bs-toggle="modal"
+                      data-bs-target="#modalProducto"
+                      data-bs-whatever="@mdo"
+                    >
+                      Ver más
+                    </button>
+                  </div>
+                </article>
+              </aside>
+              <!-- FIN card 1-->
+              <!--CARD 2-->
+              <aside class="col-md-6 col-lg-3 mb-3">
+                <article class="card text-bg-dark">
+                  <img
+                    src="../img/detallesMasterchef/masterchef12.jpg"
+                    class="card-img-top"
+                    alt="imagen de brioche"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <strong class="pe-2">T1</strong>- 18/03/2017 - 50 min
+                    </h5>
+                    <p class="card-text">Capitulo 2</p>
+                    <button
+                      class="btn btn-primary"
+                      data-bs-toggle="modal"
+                      data-bs-target="#modalProducto"
+                    >
+                      Ver más
+                    </button>
+                  </div>
+                </article>
+              </aside>
+              <!-- FIN card 2-->
+              <!--CARD 3-->
+              <aside class="col-md-6 col-lg-3 mb-3">
+                <article class="card text-bg-dark">
+                  <img
+                    src="../img/detallesMasterchef/masterchef13.jpg"
+                    class="card-img-top"
+                    alt="imagen de croissant"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <strong class="pe-2">T1</strong>- 19/03/2017 - 50 min
+                    </h5>
+                    <p class="card-text">Capitulo 3</p>
+                    <button
+                      class="btn btn-primary"
+                      data-bs-toggle="modal"
+                      data-bs-target="#modalProducto"
+                    >
+                      Ver más
+                    </button>
+                  </div>
+                </article>
+              </aside>
+              <!-- FIN card 3-->
+              <!--CARD 4-->
+              <aside class="col-md-6 col-lg-3 mb-3">
+                <article class="card text-bg-dark">
+                  <img
+                    src="../img/detallesMasterchef/masterchef14.jpg"
+                    class="card-img-top"
+                    alt="imagen de croissant"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <strong class="pe-2">T1</strong>- 20/03/2017 - 50 min
+                    </h5>
+                    <p class="card-text">Capitulo 4</p>
+                    <button
+                      class="btn btn-primary"
+                      data-bs-toggle="modal"
+                      data-bs-target="#modalProducto"
+                    >
+                      Ver más
+                    </button>
+                  </div>
+                </article>
+              </aside>
+              <!-- FIN card 4-->
+            </section>
+          </div>
+        </div>
+        <div
+          class="accordion-item text-light border-dark bg-dark rounded-0 py-5"
+        >
+          <h2 class="accordion-header" id="headingOne">
+            <button
+              class="accordion-button text-bg-dark border-warning"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="true"
+              aria-controls="collapseTwo"
+            >
+              <strong class="text-white fs-2 py-2">Temporada 2</strong>
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse show"
+            aria-labelledby="headingTwo"
+          >
+            <section
+              class="row justify-content-start accordion-body text-bg-dark mx-2"
+            >
+              <!--CARD 1-->
+              <aside class="col-md-6 col-lg-3 mb-3">
+                <article class="card text-bg-dark">
+                  <img
+                    src="../img/detallesMasterchef/masterchef11.jpg"
+                    class="card-img-top"
+                    alt="imagen de croissant"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <strong class="pe-2">T2</strong>- 17/03/2018 - 50 min
+                    </h5>
+                    <p class="card-text">Capitulo 1</p>
+                    <button
+                      class="btn btn-primary"
+                      data-bs-toggle="modal"
+                      data-bs-target="#modalProducto"
+                      data-bs-whatever="@mdo"
+                    >
+                      Ver más
+                    </button>
+                  </div>
+                </article>
+              </aside>
+              <!-- FIN card 1-->
+              <!--CARD 2-->
+              <aside class="col-md-6 col-lg-3 mb-3">
+                <article class="card text-bg-dark">
+                  <img
+                    src="../img/detallesMasterchef/masterchef12.jpg"
+                    class="card-img-top"
+                    alt="imagen de brioche"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <strong class="pe-2">T2</strong>- 18/03/2018 - 50 min
+                    </h5>
+                    <p class="card-text">Capitulo 2</p>
+                    <button
+                      class="btn btn-primary"
+                      data-bs-toggle="modal"
+                      data-bs-target="#modalProducto"
+                    >
+                      Ver más
+                    </button>
+                  </div>
+                </article>
+              </aside>
+              <!-- FIN card 2-->
+              <!--CARD 3-->
+              <aside class="col-md-6 col-lg-3 mb-3">
+                <article class="card text-bg-dark">
+                  <img
+                    src="../img/detallesMasterchef/masterchef13.jpg"
+                    class="card-img-top"
+                    alt="imagen de croissant"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <strong class="pe-2">T2</strong>- 19/03/2018 - 50 min
+                    </h5>
+                    <p class="card-text">Capitulo 3</p>
+                    <button
+                      class="btn btn-primary"
+                      data-bs-toggle="modal"
+                      data-bs-target="#modalProducto"
+                    >
+                      Ver más
+                    </button>
+                  </div>
+                </article>
+              </aside>
+              <!-- FIN card 3-->
+              <!--CARD 4-->
+              <aside class="col-md-6 col-lg-3 mb-3">
+                <article class="card text-bg-dark">
+                  <img
+                    src="../img/detallesMasterchef/masterchef14.jpg"
+                    class="card-img-top"
+                    alt="imagen de croissant"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <strong class="pe-2">T2</strong>- 20/03/2018 - 50 min
+                    </h5>
+                    <p class="card-text">Capitulo 4</p>
+                    <button
+                      class="btn btn-primary"
+                      data-bs-toggle="modal"
+                      data-bs-target="#modalProducto"
+                    >
+                      Ver más
+                    </button>
+                  </div>
+                </article>
+              </aside>
+              <!-- FIN card 4-->
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <section class="card border-0 rounded-0 text-bg-dark py-2 px-3">
+        <div class="series">
+          <p class="display-4 fw-bold py-1 text-uppercase">
+            Tambien puede gustarte
+          </p>
+        </div>
+
+        <div class="series-grid">
+          <div class="serie">
+            <a href="./detallepelicula.html">
+              <img
+                class="serie-imagen zoom"
+                src="../img/Gero/peliArgentina1985.jpg"
+                alt="imagen pelicula argentina 1985"
+              />
+            </a>
+          </div>
+
+          <div class="serie">
+            <a href="./detallepelicula.html">
+              <img
+                class="serie-imagen zoom"
+                src="../img/Gero/peliElClan.jpg"
+                alt="imagen pelicula el clan "
+              />
+            </a>
+          </div>
+
+          <div class="serie">
+            <a href="./detallepelicula.html">
+              <img
+                class="serie-imagen zoom"
+                src="../img/Gero/peliElRoboDelSiglo.jpg"
+                alt="imagen seccion vive 3"
+              />
+            </a>
+          </div>
+
+          <div class="serie">
+            <a href="./detallepelicula.html">
+              <img
+                class="serie-imagen zoom"
+                src="../img/Gero/peliRelatosSalvajes.jpg"
+                alt="imagen seccion vive 4"
+              />
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-dark navbar-dark text-secondary py-4 border-1">
+      <section class="container">
+        <div class="row text-center">
+          <aside class="col-md-4 mt-3 mb-2">
+            <a class="navbar-brand" href="./index.html"
+              ><img
+                class="iconoFooter"
+                src="/img/logo.jpeg"
+                alt="logoRollingPlay"
+            /></a>
+          </aside>
+
+          <aside class="col-md-4 my-2 text-md-start ps-md-5">
+            <ul>
+              <li>
+                <a
+                  class="text-decoration-none link-secondary"
+                  href="./pages/Noosotros.html"
+                  target="_blank"
+                  >Acerca de nosotros</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-decoration-none link-secondary"
+                  href="./pages/error404.html"
+                  target="_blank"
+                  >Preguntas frecuentes</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-decoration-none link-secondary"
+                  href="./pages/error 404"
+                  target="_blank"
+                  >Suscripciones</a
+                >
+              </li>
+            </ul>
+          </aside>
+
+          <aside class="col-md-4 my-2 text-md-start">
+            <ul>
+              <li>
+                <a
+                  class="text-decoration-none link-secondary"
+                  href="./pages/consultas.html"
+                  target="_blank"
+                  >Contactanos</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-decoration-none link-secondary"
+                  href="./pages/error404.html"
+                  target="_blank"
+                  >Prensa</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-decoration-none link-secondary"
+                  href="./pages/error404.html"
+                  target="_blank"
+                  >Trabaja con Nosotros</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-decoration-none link-secondary"
+                  href="./pages/error404.html"
+                  target="_blank"
+                  >Términos de uso</a
+                >
+              </li>
+            </ul>
+          </aside>
+
+          <aside class="col-md-4 mt-2 mb-3">
+            <h4 class="text-md-start">Seguinos en nuestras redes</h4>
+            <div class="text-md-start">
+              <a href="./pages/error404.html" class="link-secondary"
+                ><i class="bi bi-facebook fs-1"></i
+              ></a>
+
+              <a href="./pages/error404.html" class="link-secondary"
+                ><i class="bi bi-instagram fs-1 mx-3"></i
+              ></a>
+              <a href="./pages/error404.html" class="link-secondary"
+                ><i class="bi bi-twitter fs-1 me-3"></i
+              ></a>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

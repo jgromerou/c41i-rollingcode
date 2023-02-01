@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ProyFinal1</title>
+    <meta name="keywords" content="ProyFinal" />
+    <meta name="author" content="equipo1" />
+    <meta name="description" content="proyFinal1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark p-3">
+        <div class="container">
+          <a class="navbar-brand" href="../pages/principal.html"
+            ><img
+              class="iconNavbar"
+              src="../img/logo.jpeg"
+              alt="logoRollingPlayNavbar"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item mx-3">
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="/pages/peliculas.html"
+                  >PELÍCULAS</a
+                >
+              </li>
+
+              <li class="nav-item me-3">
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="/pages/series.html"
+                  >SERIES</a
+                >
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="./principal.html"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  GÉNEROS
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="./generos/generoAccion0.html"
+                      >ACCIÓN</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="./generos/generoAventura0.html"
+                      >AVENTURA</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="./generos/generoCiencia0.html"
+                      >CIENCIA FICCIÓN
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="./generos/generoComedia0.html"
+                      >COMEDIA</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="./generos/generoDocumental0.html"
+                      >DOCUMENTAL</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./generos/generoDrama0.html"
+                      >DRAMA</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="./generos/generoRomantica0.html"
+                      >ROMÁNTICAS</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./generos/generoTerror0.html"
+                      >TERROR</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="buscar">
+              <input
+                class="form-control me-2"
+                type="buscar"
+                placeholder="realizar búsqueda"
+                aria-label="Search"
+              />
+              <a
+                class="btn btn-outline-success"
+                type="submit"
+                href="./error404.html"
+              >
+                <i class="bi bi-search fs-4"></i>
+              </a>
+              <div class="dropdown ms-5">
+                <button
+                  class="btn btn-primary dropdown-toggle fs-4 text-uppercase"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <i class="bi bi-person-circle"></i> Belu
+                </button>
+                <ul class="dropdown-menu">
+                  <li>
+                    <button class="dropdown-item" type="button">
+                      <a href="./error404.html">Mi Cuenta</a>
+                    </button>
+                  </li>
+                  <li>
+                    <button class="dropdown-item" type="button">
+                      <a href="./error404.html">Ayuda</a>
+                    </button>
+                  </li>
+                  <li>
+                    <button class="dropdown-item" type="button">
+                      <a href="/index.html">Cerrar Sesión</a>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-fluid px-0">
+      <section class="card border-0 rounded-0 text-bg-dark thumbnail">
+        <iframe
+          class="contenedor mt-3 my-5"
+          width="640"
+          height="480"
+          src="https://www.youtube.com/embed/K_lP1Hk-3zU"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <div class="container mb-5 text-center text-lg-start">
+          <p class="card-title display-2 fw-bold my-4">
+            Cuestión de principios
+          </p>
+          <div class="d-flex justify-content-center justify-content-lg-start">
+            <p class="card-text mb-2">
+              <strong>2009</strong> <strong class="mx-4">1h 50min</strong>
+            </p>
+            <p class="pe-4">Calidad: Media</p>
+            <img class="imagenpg13" src="../img/pg-13.png" alt="logopg13" />
+          </div>
+
+          <p class="card-text">
+            Basada en un cuento de Roberto Fontanarrosa Dir: Rodrigo Grande
+            Guion: Roberto Fontanarrosa - Rodrigo Grande Act: Federico Luppi -
+            Norma Aleandro - Pablo Echarri - María Carámbula - Monica
+            Antonópulos - Pepe Novoa - Mabel Pessen - Oscar Nuñez - Oscar Alegre
+            - Emanuel Gardini - Mateo Izza - Mario Vidoletti -
+          </p>
+        </div>
+      </section>
+
+      <section
+        class="card border-0 rounded-0 text-bg-light thumbnail pb-4 bg-light"
+      >
+        <h1
+          class="card-title display-1 fw-bold my-5 ms-3 text-bg-light px-3 text-center"
+        >
+          Trailer
+        </h1>
+        <div
+          class="card card-trailer align-content-center mx-lg-5 contenedor-imgdetallepelicula"
+        >
+          <img
+            src="../img/cuestiondepricipios.jpg"
+            class="card-img-top img-detalle-serie zoom"
+            alt="cuestion de principios imagen"
+          />
+          <div class="card-body">
+            <h3 class="card-title text-center text-bg-light fs-1 fw-bold">
+              Cuestión de Principios
+            </h3>
+
+            <!-- Button trigger modal -->
+            <button
+              type="button"
+              class="boton"
+              data-bs-toggle="modal"
+              data-bs-target="#ModalTrailer"
+            >
+              Ver Trailer
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="card border-0 rounded-0 text-bg-dark py-2 px-3">
+        <div class="series">
+          <p
+            class="display-4 fw-bold py-1 text-uppercase text-center text-lg-start"
+          >
+            Tambien puede gustarte
+          </p>
+        </div>
+
+        <div class="series-grid">
+          <div class="serie">
+            <a href="./detalleSerie.html">
+              <img
+                class="serie-imagen zoom"
+                src="../img/Gero/peliArgentina1985.jpg"
+                alt="imagen pelicula Argentina 1985"
+              />
+            </a>
+          </div>
+
+          <div class="serie">
+            <a href="./detalleSerie.html">
+              <img
+                class="serie-imagen zoom"
+                src="../img/Gero/peliElClan.jpg"
+                alt="imagen pelicula El Clan "
+              />
+            </a>
+          </div>
+
+          <div class="serie">
+            <a href="./detalleSerie.html">
+              <img
+                class="serie-imagen zoom"
+                src="../img/Gero/peliElRoboDelSiglo.jpg"
+                alt="imagen seccion El Robo del Siglo"
+              />
+            </a>
+          </div>
+
+          <div class="serie">
+            <a href="./detalleSerie.html">
+              <img
+                class="serie-imagen zoom"
+                src="../img/Gero/peliRelatosSalvajes.jpg"
+                alt="imagen seccion Relatos Salvajes"
+              />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="ModalTrailer"
+        tabindex="-1"
+        aria-labelledby="ModalTrailerLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2
+                class="modal-title display-2 fs-1 fw-bold"
+                id="ModalTrailerLabel"
+              >
+                Trailer: Cuestión de principios
+              </h2>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <iframe
+                class="img-detalle-serie"
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/S4JAjcRj4qo"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="boton" data-bs-dismiss="modal">
+                Cerrar
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="bg-dark navbar-dark text-secondary py-4 border-1">
+      <section class="container">
+        <div class="row text-center">
+          <aside class="col-md-4 mt-3 mb-2">
+            <a class="navbar-brand" href="./index.html"
+              ><img
+                class="iconoFooter"
+                src="/img/logo.jpeg"
+                alt="logoRollingPlay"
+            /></a>
+          </aside>
+
+          <aside class="col-md-4 my-2 text-md-start ps-md-5">
+            <ul>
+              <li>
+                <a
+                  class="text-decoration-none link-secondary"
+                  href="./pages/Noosotros.html"
+                  target="_blank"
+                  >Acerca de nosotros</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-decoration-none link-secondary"
+                  href="./pages/error404.html"
+                  target="_blank"
+                  >Preguntas frecuentes</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-decoration-none link-secondary"
+                  href="./pages/error 404"
+                  target="_blank"
+                  >Suscripciones</a
+                >
+              </li>
+            </ul>
+          </aside>
+
+          <aside class="col-md-4 my-2 text-md-start">
+            <ul>
+              <li>
+                <a
+                  class="text-decoration-none link-secondary"
+                  href="./pages/consultas.html"
+                  target="_blank"
+                  >Contactanos</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-decoration-none link-secondary"
+                  href="./pages/error404.html"
+                  target="_blank"
+                  >Prensa</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-decoration-none link-secondary"
+                  href="./pages/error404.html"
+                  target="_blank"
+                  >Trabaja con Nosotros</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-decoration-none link-secondary"
+                  href="./pages/error404.html"
+                  target="_blank"
+                  >Términos de uso</a
+                >
+              </li>
+            </ul>
+          </aside>
+
+          <aside class="col-md-4 mt-2 mb-3">
+            <h4 class="text-md-start">Seguinos en nuestras redes</h4>
+            <div class="text-md-start">
+              <a href="./pages/error404.html" class="link-secondary"
+                ><i class="bi bi-facebook fs-1"></i
+              ></a>
+
+              <a href="./pages/error404.html" class="link-secondary"
+                ><i class="bi bi-instagram fs-1 mx-3"></i
+              ></a>
+              <a href="./pages/error404.html" class="link-secondary"
+                ><i class="bi bi-twitter fs-1 me-3"></i
+              ></a>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ProyFinal1</title>
+    <meta name="keywords" content="ProyFinal" />
+    <meta name="author" content="equipo1" />
+    <meta name="description" content="proyFinal1" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top p-3">
+        <div class="container">
+          <a class="navbar-brand" href="./principal.html"
+            ><img class="iconNavbar" src="../img/logo.jpeg" alt="iconNavbar"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item mx-3">
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="/pages/peliculas.html"
+                  >PELÍCULAS</a
+                >
+              </li>
+
+              <li class="nav-item me-3">
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="/pages/series.html"
+                  >SERIES</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="/pages/principal.html"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  GÉNEROS
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="/pages/generos/generoAccion0.html"
+                      >ACCIÓN</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="/pages/generos/generoAventura0.html"
+                      >AVENTURA</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="/pages/generos/generoCiencia0.html"
+                      >CIENCIA FICCIÓN
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="/pages/generos/generoComedia0.html"
+                      >COMEDIA</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="/pages/generos/generoDocumental0.html"
+                      >DOCUMENTAL</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="/pages/generos/generoDrama0.html"
+                      >DRAMA</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="/pages/generos/generoRomantica0.html"
+                      >ROMÁNTICAS</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="/pages/generos/generoTerror0.html"
+                      >TERROR</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="buscar">
+              <input
+                class="form-control me-2"
+                type="buscar"
+                placeholder="realizar búsqueda"
+                aria-label="Search"
+              />
+              <a
+                class="btn btn-outline-success"
+                type="submit"
+                href="./error404.html"
+              >
+                <i class="bi bi-search fs-4"></i>
+              </a>
+              <div class="dropdown ms-5">
+                <button
+                  class="btn btn-primary dropdown-toggle fs-4 text-uppercase"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <i class="bi bi-person-circle"></i> Belu
+                </button>
+                <ul class="dropdown-menu">
+                  <li>
+                    <button class="dropdown-item" type="button">
+                      <a href="./error404.html">Mi Cuenta</a>
+                    </button>
+                  </li>
+                  <li>
+                    <button class="dropdown-item" type="button">
+                      <a href="./error404.html">Ayuda</a>
+                    </button>
+                  </li>
+                  <li>
+                    <button class="dropdown-item" type="button">
+                      <a href="/index.html">Cerrar Sesión</a>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-fluid mt-5">
+      <section class="galeria">
+        <h1 class="titulosInicio text-uppercase mt-5">Estrenos</h1>
+        <div>
+          <img
+            src="../img/luis/Argentina_1985nva.jpg"
+            alt="Portada pelicula Argentina 1985"
+            class="imagenPrincipal"
+            width="100%"
+            height="800px"
+          />
+          <button
+            class="btn btn-primary botonModal"
+            data-bs-toggle="modal"
+            data-bs-target="#argentina1985"
+            id="#argentina1985"
+          >
+            <span class="textoBotonModal"> Ver Trailer </span>
+          </button>
+        </div>
+        <div class="listaImagenes justify-content-between">
+          <div>
+            <img
+              src="../img/luis/estrenos/elefanteBlanco.jfif"
+              alt="Portada pelicula el elefante Blanco"
+            />
+            <button
+              class="btn btn-primary botonModalImagenes"
+              data-bs-toggle="modal"
+              data-bs-target="#elefanteBlanco"
+              id="#elefanteBlanco"
+            >
+              <span class="textoBotonModal"> Ver Trailer </span>
+            </button>
+          </div>
+
+          <div>
+            <img
+              src="../img/luis/estrenos/elClan.jfif"
+              alt="Portada Pelicula El clan"
+            />
+            <button
+              class="btn btn-primary botonModalImagenes"
+              data-bs-toggle="modal"
+              data-bs-target="#elClan"
+              id="#elClan"
+            >
+              <span class="textoBotonModal"> Ver Trailer </span>
+            </button>
+          </div>
+          <div>
+            <img
+              src="../img/luis/estrenos/elAngel.jfif"
+              alt="Portada pelicula El Angel"
+            />
+            <button
+              class="btn btn-primary botonModalImagenes"
+              data-bs-toggle="modal"
+              data-bs-target="#elAngel"
+              id="#elAngel"
+            >
+              <span class="textoBotonModal"> Ver Trailer </span>
+            </button>
+          </div>
+
+          <div>
+            <img
+              src="../img/luis//estrenos/elRobo.jpg"
+              alt="Portada pelicula El Robo"
+            />
+            <button
+              class="btn btn-primary botonModalImagenes"
+              data-bs-toggle="modal"
+              data-bs-target="#elRobo"
+              id="#elRobo"
+            >
+              <span class="textoBotonModal"> Ver Trailer </span>
+            </button>
+          </div>
+        </div>
+        <!--Modal Argentina 1985-->
+        <div class="container">
+          <div class="modal bg-black" id="argentina1985">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-tittle">Argentina 1985</h5>
+                  <button
+                    class="btn btn-close"
+                    data-bs-dismiss="modal"
+                  ></button>
+                </div>
+                <div class="modal-body ratio-16x9">
+                  <iframe
+                    width="100%"
+                    height="400"
+                    src="https://www.youtube.com/embed/EDK2FtU5oxg"
+                    title="Argentina, 1985 | Tráiler oficial"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                  ></iframe>
+                  <p>
+                    La película está inspirada en la historia real del fiscal
+                    Julio Strassera y su adjunto, Luis Moreno Ocampo. El filme
+                    transcurre los años 1984 y 1985, cuando el enjuiciamiento a
+                    los máximos jefes militares que habían gobernado
+                    dictatorialmente la Argentina entre 1976 y 1982, por
+                    violaciones masivas de derechos humanos, fue obstruido por
+                    las Fuerzas Armadas y la Cámara Federal dispone enjuiciar
+                    por sí misma a los militares acusados. La decisión judicial
+                    envió la causa al fiscal Strassera, concediéndole escasos
+                    dos meses para preparar la acusación y presentar el caso en
+                    juicio. Simultáneamente, Moreno Ocampo es nombrado como
+                    fiscal adjunto. Ante la negativa general del cuerpo de
+                    funcionarios judiciales para integrar el equipo, sea por
+                    miedo o por simpatías con los militares, Strassera y Moreno
+                    Ocampo reúnen a un equipo legal de jóvenes estudiantes para
+                    realizar la investigación y presentar la acusación en el
+                    juicio, que finalmente se realizó en 1985.
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-danger" data-bs-dismiss="modal">
+                    Cerrar
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Modal Elefante Blanco-->
+        <div class="container">
+          <div class="modal bg-black" id="elefanteBlanco">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-tittle">Elefante Blanco</h5>
+                  <button
+                    class="btn btn-close"
+                    data-bs-dismiss="modal"
+                  ></button>
+                </div>
+                <div class="modal-body ratio-16x9">
+                  <iframe
+                    width="100%"
+                    height="400"
+                    src="https://www.youtube.com/embed/2el1OiOR-c4"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                  ></iframe>
+                  <p>
+                    ELEFANTE BLANCO narra la historia de amistad de dos curas,
+                    JULIÁN y NICOLÁS, que tras sobrevivir un intento de
+                    asesinato por parte del Ejército durante su trabajo en
+                    Centroamérica, se asientan en una barriada de Buenos Aires
+                    para desarrollar su apostolado y labor social. Allí conocen
+                    a LUCIANA, con quien lucharán codo a codo contra la
+                    corrupción, mal endémico de la zona. Su trabajo les
+                    enfrentará a la jerarquía eclesiástica y a los poderes
+                    gubernamentales y policiales al arriesgar su vida por
+                    defender su compromiso y lealtad hacia los vecinos del
+                    barrio.
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-danger" data-bs-dismiss="modal">
+                    Cerrar
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Modal El Clan-->
+        <div class="container">
+          <div class="modal bg-black" id="elClan">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-tittle">El Clan</h5>
+                  <button
+                    class="btn btn-close"
+                    data-bs-dismiss="modal"
+                  ></button>
+                </div>
+                <div class="modal-body ratio-16x9">
+                  <iframe
+                    width="100%"
+                    height="400"
+                    src="https://www.youtube.com/embed/AuWcyl3xZVo"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                  ></iframe>
+                  <p>
+                    “El Clan” narra la historia de una de las familias más
+                    oscuras de la historia argentina, los Puccio. Del corazón de
+                    San Isidro, una de las zonas más ricas de Buenos Aires y de
+                    todo el Cono Sur, esta familia considerada como una familia
+                    “tipo” tiene un manto turbio. Gozan de buen pasar económico,
+                    educación, trabajo, deporte y un reconocimiento social muy
+                    elevado en el barrio de Zona Norte. La película nos cuenta
+                    desde los inicios del clan, con sus primeros secuestros en
+                    la etapa final de la dictadura militar más oscura y cruel
+                    que tuvo la Argentina, hasta la caída del Clan, ya en
+                    democracia. Cabe resaltar que la historia está basada en el
+                    caso policial del Clan Puccio, el cual conmovió a la
+                    sociedad argentina a comienzos de los años 80.
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-danger" data-bs-dismiss="modal">
+                    Cerrar
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Modal El Angel-->
+        <div class="container">
+          <div class="modal bg-black" id="elAngel">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-tittle">El Angel</h5>
+                  <button
+                    class="btn btn-close"
+                    data-bs-dismiss="modal"
+                  ></button>
+                </div>
+                <div class="modal-body ratio-16x9">
+                  <iframe
+                    width="100%"
+                    height="400"
+                    src="https://www.youtube.com/embed/FWPntt8XQBo"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                  ></iframe>
+                  <p>
+                    Carlitos es un joven de diecisiete años con fama de estrella
+                    de cine, rizos rubios y cara de bebé. Ya en su primera
+                    adolescencia manifestó su verdadera vocación: ser un ladrón.
+                    Cuando conoce a Ramón en su nueva escuela, Carlitos se
+                    siente inmediatamente atraído por él y quiere llamar su
+                    atención. Juntos se embarcarán en un viaje de
+                    descubrimientos, amor y crimen. Debido a su apariencia
+                    angelical, la prensa llama a Carlitos "El ángel de la
+                    muerte". Llama la atención por su belleza, y se convierte en
+                    una celebridad de la noche a la mañana. En total se cree que
+                    cometió más de cuarenta robos y once asesinatos. Hoy,
+                    después de más de cuarenta y cinco años en la cárcel, Carlos
+                    Robledo Puch es el preso que más tiempo lleva en prisión en
+                    la historia de Argentina.
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-danger" data-bs-dismiss="modal">
+                    Cerrar
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Modal El Robo-->
+        <div class="container">
+          <div class="modal bg-black" id="elRobo">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-tittle">El Robo</h5>
+                  <button
+                    class="btn btn-close"
+                    data-bs-dismiss="modal"
+                  ></button>
+                </div>
+                <div class="modal-body ratio-16x9">
+                  <iframe
+                    width="100%"
+                    height="400"
+                    src="https://www.youtube.com/embed/8m6aAhgi7Xg"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                  ></iframe>
+                  <p>
+                    Llueve copiosamente y en la calle no hay un alma. Araujo
+                    está refugiado bajo el alero de un local cerrado. Delante
+                    está la fachada del Banco Río. Es viernes 13 de enero de
+                    2006. Los francotiradores del Grupo Halcón están a la espera
+                    de una orden. Más de tres centenares de policías diseminados
+                    por el lugar aguardan la voz de su jefe. Miguel Sileo, el
+                    negociador, deja diluir las esperanzas de que Vitette, uno
+                    de los líderes de la banda de ladrones que entró a la
+                    sucursal del Banco Río de Acassuso de señales de vida. Las
+                    pizzas que había pedido como condición se habían enfriado.
+                    El grupo Halcón recibe la orden y entra: se encuentran con
+                    lo inesperado. Armas de juguete y una veintena de rehenes
+                    asustados los esperan dentro; no hay señales del grupo de
+                    ladrones.
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-danger" data-bs-dismiss="modal">
+                    Cerrar
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="titulosInicio text-uppercase">Recomendaciones</h2>
+        <p class="parrafos">
+          En esta seccion te mostramos la lista de sugerencias, donde podras ver
+          las peliculas y series de distintos generos con mayor cantidad de
+          reproducciones durante estos ultimos dos meses en toda America Latina
+        </p>
+
+        <article class="row cardsInicio">
+          <div class="col-md-3" style="width: 300px; height: 600px">
+            <img
+              src="../img/luis//ciudadDeDios.jfif"
+              class="card-img-top imagenesRecomendaciones"
+              alt="Portada Ciudad de Dios"
+              height="500px"
+            />
+            <button
+              class="btn btn-primary botonesCards"
+              data-bs-toggle="modal"
+              data-bs-target="#ciudadDeDios"
+              id="#ciudadDeDios"
+            >
+              <span class="textoBotonModal"> Ver Trailer </span>
+            </button>
+          </div>
+          <div class="col-md-3" style="width: 300px; height: 600px">
+            <img
+              src="../img/luis//9reinas.jfif"
+              class="card-img-top imagenesRecomendaciones"
+              alt="Portada 9 Reinas"
+              height="500px"
+            />
+
+            <button
+              class="btn btn-primary botonesCards"
+              data-bs-toggle="modal"
+              data-bs-target="#nueveReinas"
+              id="#nueveReinas"
+            >
+              <span class="textoBotonModal"> Ver Trailer </span>
+            </button>
+          </div>
+          <div class="col-md-3" style="width: 300px; height: 600px">
+            <img
+              src="../img/luis//peliLaOdiseaDeLosGiles.jpg"
+              class="card-img-top imagenesRecomendaciones"
+              alt="Portada inseparables"
+              height="500px"
+            />
+            <button
+              class="btn btn-primary botonesCards"
+              data-bs-toggle="modal"
+              data-bs-target="#odiseaGiles"
+              id="#odiseaGiles"
+            >
+              <span class="textoBotonModal"> Ver Trailer </span>
+            </button>
+          </div>
+          <div class="col-md-3" style="width: 300px; height: 600px">
+            <img
+              src="../img/luis//peliRelatosSalvajes.jpg"
+              class="card-img-top imagenesRecomendaciones"
+              alt="peliRelatosSalvajes"
+              height="500px"
+            />
+
+            <button
+              class="btn btn-primary botonesCards"
+              data-bs-toggle="modal"
+              data-bs-target="#relatosSalvajes"
+              id="#relatosSalvajes"
+            >
+              <span class="textoBotonModal"> Ver Trailer </span>
+            </button>
+          </div>
+        </article>
+
+        <!--Modal Ciudad de Dios-->
+        <div class="container">
+          <div class="modal bg-black" id="ciudadDeDios">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header bg-black">
+                  <h5 class="modal-tittle">Ciudad de Dios</h5>
+                  <button
+                    class="btn btn-close"
+                    data-bs-dismiss="modal"
+                  ></button>
+                </div>
+                <div class="modal-body ratio-16x9">
+                  <iframe
+                    width="100%"
+                    height="400"
+                    src="https://www.youtube.com/embed/KN7VZTnRA4g"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                  ></iframe>
+                  <p>
+                    En una favela de Río de Janeiro, en los años sesenta,
+                    “Buscapé” es un niño negro, pobre, demasiado frágil para ser
+                    un delincuente, pero demasiado listo para contentarse con un
+                    trabajo mal pagado. Ha crecido en un entorno violento, pero
+                    intenta ver la realidad de otro modo, con los ojos de un
+                    artista. Sueña con convertirse en fotógrafo profesional.
+                    “Dadinho”, un niño de once años, se acaba de mudar a la
+                    Ciudad. Él, en cambio, desea convertirse en el mayor
+                    criminal de Río y comienza su aprendizaje haciendo pequeños
+                    trabajos para la mafia local. Admira a “Cabeleira” y a su
+                    banda, que asaltan los camiones y roban todo lo que pillan.
+                    “Cabeleira” le ofrece a “Dadinho” la ocasión de cometer un
+                    asesinato, que será el primero de una larga lista….
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-danger" data-bs-dismiss="modal">
+                    Cerrar
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Modal 9 Reinas-->
+        <div class="container">
+          <div class="modal" id="nueveReinas">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-tittle">9 Reinas</h5>
+                  <button
+                    class="btn btn-close"
+                    data-bs-dismiss="modal"
+                  ></button>
+                </div>
+                <div class="modal-body ratio-16x9">
+                  <iframe
+                    width="100%"
+                    height="400"
+                    src="https://www.youtube.com/embed/P63PyjeDoKk"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                  ></iframe>
+                  <p>
+                    Buenos Aires. Juan y Marcos son dos estafadores de poca
+                    monta, uno joven y un veterano en el arte del timo, que
+                    casualmente se ven envueltos en un asunto que les puede
+                    hacer millonarios: tienen menos de un día para hacer una
+                    estafa que no puede fallar.
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-danger" data-bs-dismiss="modal">
+                    Cerrar
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Modal Odisea de los giles-->
+        <div class="container">
+          <div class="modal bg-black" id="odiseaGiles">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-tittle">Odisea de los giles</h5>
+                  <button
+                    class="btn btn-close"
+                    data-bs-dismiss="modal"
+                  ></button>
+                </div>
+                <div class="modal-body ratio-16x9">
+                  <iframe
+                    width="100%"
+                    height="400"
+                    src="https://www.youtube.com/embed/ZP_o6GQaFW8"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                  ></iframe>
+                  <p>
+                    Provincia de Buenos Aires, fines del 2001. Un grupo de
+                    amigos y vecinos pierde el dinero que había logrado reunir
+                    para reflotar una vieja cooperativa agrícola. Al poco
+                    tiempo, descubren que sus ahorros se perdieron por una
+                    estafa realizada por un inescrupuloso abogado y un gerente
+                    de banco que contaban con información de lo que se iba a
+                    desencadenar en el país. Al enterarse de lo sucedido, este
+                    grupo de vecinos decide organizarse y armar un minucioso
+                    plan con el objetivo de recuperar lo que les pertenece.
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-danger" data-bs-dismiss="modal">
+                    Cerrar
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Modal Relatos Salvajes-->
+        <div class="container">
+          <div class="modal bg-black" id="relatosSalvajes">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-tittle">Relatos Salvajes</h5>
+                  <button
+                    class="btn btn-close"
+                    data-bs-dismiss="modal"
+                  ></button>
+                </div>
+                <div class="modal-body ratio-16x9">
+                  <iframe
+                    width="100%"
+                    height="400"
+                    src="https://www.youtube.com/embed/aaowYFm8rME"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                  ></iframe>
+                  <p>
+                    La película consta de seis episodios que alternan la
+                    intriga, la comedia y la violencia. Sus personajes se verán
+                    empujados hacia el abismo y hacia el innegable placer de
+                    perder el control, cruzando la delgada línea que separa la
+                    civilización de la barbarie.
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-danger" data-bs-dismiss="modal">
+                    Cerrar
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="mb-5">
+        <h2 class="titulosInicio text-uppercase">Generos</h2>
+        <article class="row">
+          <aside class="col-md-3 cardsGenero rounded-3">
+            <h3 class="titulosGeneros">Accion</h3>
+            <a href="/pages/generos/generoAccion0.html">
+              <img
+                class="iconosGeneros imgformat"
+                src="../img/luis/generos/accion.png"
+                alt="Accion"
+              />
+            </a>
+          </aside>
+          <aside class="col-md-3 cardsGenero">
+            <h3 class="titulosGeneros">Romance</h3>
+            <a href="/pages/generos/generoRomantica0.html">
+              <img
+                class="iconosGeneros imgformat"
+                src="../img/luis/generos/romance.png"
+                alt="Romance"
+              />
+            </a>
+          </aside>
+          <aside class="col-md-3 cardsGenero">
+            <h3 class="titulosGeneros">Comedia</h3>
+            <a href="/pages/generos/generoComedia0.html">
+              <img
+                class="iconosGeneros imgformat"
+                src="../img/luis/generos/comedia.png"
+                alt="Comedia"
+              />
+            </a>
+          </aside>
+          <aside class="col-md-3 cardsGenero">
+            <h3 class="titulosGeneros">Terror</h3>
+            <a href="/pages/generos/generoTerror0.html">
+              <img
+                class="iconosGeneros imgformat"
+                src="../img/luis/generos/terror.png"
+                alt="Terror"
+              />
+            </a>
+          </aside>
+        </article>
+      </section>
+    </main>
+
+    <footer class="bg-dark navbar-dark text-secondary py-4 border-1">
+      <section class="container">
+        <div class="row text-center">
+          <aside class="col-md-4 mt-3 mb-2">
+            <a class="navbar-brand" href="../index.html"
+              ><img
+                class="iconoFooter"
+                src="/img/logo.jpeg"
+                alt="logoRollingPlay"
+            /></a>
+          </aside>
+
+          <aside class="col-md-4 my-2 text-md-start ps-md-5">
+            <ul>
+              <li>
+                <a
+                  class="text-decoration-none link-secondary"
+                  href="./nosotros.html"
+                  target="_blank"
+                  >Acerca de nosotros</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-decoration-none link-secondary"
+                  href="./error404.html"
+                  target="_blank"
+                  >Preguntas frecuentes</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-decoration-none link-secondary"
+                  href="./registro.html"
+                  target="_blank"
+                  >Suscripciones</a
+                >
+              </li>
+            </ul>
+          </aside>
+
+          <aside class="col-md-4 my-2 text-md-start">
+            <ul>
+              <li>
+                <a
+                  class="text-decoration-none link-secondary"
+                  href="./contacto.html"
+                  target="_blank"
+                  >Contactanos</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-decoration-none link-secondary"
+                  href="./error404.html"
+                  target="_blank"
+                  >Prensa</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-decoration-none link-secondary"
+                  href="./error404.html"
+                  target="_blank"
+                  >Trabaja con Nosotros</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-decoration-none link-secondary"
+                  href="./error404.html"
+                  target="_blank"
+                  >Términos de uso</a
+                >
+              </li>
+            </ul>
+          </aside>
+
+          <aside class="col-md-4 mt-2 mb-3">
+            <h4 class="text-md-start">Seguinos en nuestras redes</h4>
+            <div class="text-md-start">
+              <a href="./error404.html" class="link-secondary"
+                ><i class="bi bi-facebook fs-1"></i
+              ></a>
+
+              <a href="./error404.html" class="link-secondary"
+                ><i class="bi bi-instagram fs-1 mx-3"></i
+              ></a>
+              <a href="./error404.html" class="link-secondary"
+                ><i class="bi bi-twitter fs-1 me-3"></i
+              ></a>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
