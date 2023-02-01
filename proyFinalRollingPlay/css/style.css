@@ -56,6 +56,9 @@ a {
   max-width: 1200px;
   margin: 0 auto;
 }
+.zindex {
+  z-index: 1;
+}
 .contenedor-imgdetallepelicula {
   width: 95%;
   max-width: 330px;
@@ -634,10 +637,10 @@ p {
   .col {
     flex: 1;
   }
-  .boton {
+  /* .boton {
     margin: 40px auto;
     padding: 20px;
-  }
+  } */
   .card-text {
     font-size: 1.6rem;
   }
