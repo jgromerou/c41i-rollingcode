@@ -93,10 +93,6 @@ img {
   cursor: pointer;
 }
 
-.imgerror {
-  max-width: 1000px;
-  margin: 0 auto;
-}
 .error404 {
   text-align: center;
   padding-top: 30px;
@@ -577,10 +573,10 @@ p {
     padding: 5px 10px;
   }
 
-  .imgerror {
+  /* .imgerror {
     max-width: 100%;
     margin: 0;
-  }
+  } */
   .card {
     padding: 2rem auto;
   }
@@ -618,10 +614,10 @@ p {
     padding: 5px 10px;
   }
 
-  .imgerror {
+  /* .imgerror {
     max-width: 100%;
     margin: 0;
-  }
+  } */
   .card {
     padding: 2rem auto;
   }
@@ -667,10 +663,10 @@ p {
   .iconNavbar {
     height: 6vh;
   }
-  .imgerror {
+  /* .imgerror {
     max-width: 100%;
     margin: 0;
-  }
+  } */
   /* Card body */
   .alturacardregistro {
     height: 70rem;
@@ -689,6 +685,10 @@ p {
   }
   .img404-size {
     width: 100rem;
+  }
+  .imgerror {
+    max-width: 1000px;
+    margin: 0 auto;
   }
   .series-grid {
     grid-template-columns: repeat(4, 1fr);
