@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ProyFinal1</title>
+    <title>RollingPlay</title>
     <meta name="keywords" content="ProyFinal" />
     <meta name="author" content="equipo1" />
     <meta name="description" content="proyFinal1" />
@@ -22,7 +22,7 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg bg-dark navbar-dark p-3 fixed-top">
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top p-1">
         <div class="container">
           <a class="navbar-brand" href="../pages/principal.html"
             ><img
@@ -43,9 +43,9 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item mx-3">
+              <li class="nav-item">
                 <a
-                  class="nav-link"
+                  class="nav-link me-3"
                   aria-current="page"
                   href="/pages/peliculas.html"
                   >PELÍCULAS</a
@@ -60,7 +60,6 @@
                   >SERIES</a
                 >
               </li>
-
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle"
@@ -73,52 +72,32 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="./generos/generoAccion0.html"
+                    <a
+                      class="dropdown-item"
+                      href="/pages/generos/generoAccion0.html"
                       >ACCIÓN</a
                     >
                   </li>
+
                   <li>
                     <a
                       class="dropdown-item"
-                      href="./generos/generoAventura0.html"
-                      >AVENTURA</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item"
-                      href="./generos/generoCiencia0.html"
-                      >CIENCIA FICCIÓN
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item"
-                      href="./generos/generoComedia0.html"
+                      href="/pages/generos/generoComedia0.html"
                       >COMEDIA</a
                     >
                   </li>
+
                   <li>
                     <a
                       class="dropdown-item"
-                      href="./generos/generoDocumental0.html"
-                      >DOCUMENTAL</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="./generos/generoDrama0.html"
-                      >DRAMA</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item"
-                      href="./generos/generoRomantica0.html"
+                      href="/pages/generos/generoRomantica0.html"
                       >ROMÁNTICAS</a
                     >
                   </li>
                   <li>
-                    <a class="dropdown-item" href="./generos/generoTerror0.html"
+                    <a
+                      class="dropdown-item"
+                      href="/pages/generos/generoTerror0.html"
                       >TERROR</a
                     >
                   </li>
@@ -135,11 +114,11 @@
               <a
                 class="btn btn-outline-success"
                 type="submit"
-                href="./error404.html"
+                href="/pages/error404.html"
               >
                 <i class="bi bi-search fs-4"></i>
               </a>
-              <div class="dropdown ms-5">
+              <div class="dropdown ms-5 pb-2">
                 <button
                   class="btn btn-primary dropdown-toggle fs-4 text-uppercase"
                   type="button"
@@ -151,12 +130,12 @@
                 <ul class="dropdown-menu">
                   <li>
                     <button class="dropdown-item" type="button">
-                      <a href="./error404.html">Mi Cuenta</a>
+                      <a href="/pages/error404.html">Mi Cuenta</a>
                     </button>
                   </li>
                   <li>
                     <button class="dropdown-item" type="button">
-                      <a href="./error404.html">Ayuda</a>
+                      <a href="/pages/error404.html">Ayuda</a>
                     </button>
                   </li>
                   <li>
@@ -173,17 +152,19 @@
     </header>
 
     <main class="container-fluid rounded-0 px-0">
-      <section class="card border-0 rounded-0 text-bg-dark">
+      <section class="text-bg-dark">
         <img
           src="../img/detallesMasterchef/Masterchef-Celebrity-nueva-temporada.jpg.webp"
           class="card-img opacity-25 img-detalle-serie"
           alt="imagen masterchef fondo"
         />
-        <div class="card-img-overlay">
-          <h5 class="card-title display-5 fw-bold my-5">Masterchef</h5>
-          <h1 class="card-title display-1 fw-bold">
-            MasterChef Celebrity Argentina
-          </h1>
+        <div class="card-img-overlay mt-5 px-3">
+          <h3 class="card-title display-3 fw-bold pt-4 mt-5 mb-3">
+            Masterchef
+          </h3>
+          <h5 class="card-title display-5 fw-bold mb-3 pb-3">
+            Celebrity Argentina
+          </h5>
           <p class="card-text">
             <strong>T1 E1</strong><small> Episodio 1</small>
           </p>
@@ -232,14 +213,15 @@
                       <strong class="pe-2">T1</strong>- 17/03/2017 - 50 min
                     </h5>
                     <p class="card-text">Capitulo 1</p>
-                    <button
-                      class="btn btn-primary"
-                      data-bs-toggle="modal"
-                      data-bs-target="#modalProducto"
-                      data-bs-whatever="@mdo"
+                    <a href="./error404.html"
+                      ><button
+                        class="btn btn-primary"
+                        data-bs-toggle="modal"
+                        data-bs-target="#modalProducto"
+                      >
+                        Ver más
+                      </button></a
                     >
-                      Ver más
-                    </button>
                   </div>
                 </article>
               </aside>
@@ -257,13 +239,15 @@
                       <strong class="pe-2">T1</strong>- 18/03/2017 - 50 min
                     </h5>
                     <p class="card-text">Capitulo 2</p>
-                    <button
-                      class="btn btn-primary"
-                      data-bs-toggle="modal"
-                      data-bs-target="#modalProducto"
+                    <a href="./error404.html"
+                      ><button
+                        class="btn btn-primary"
+                        data-bs-toggle="modal"
+                        data-bs-target="#modalProducto"
+                      >
+                        Ver más
+                      </button></a
                     >
-                      Ver más
-                    </button>
                   </div>
                 </article>
               </aside>
@@ -281,13 +265,15 @@
                       <strong class="pe-2">T1</strong>- 19/03/2017 - 50 min
                     </h5>
                     <p class="card-text">Capitulo 3</p>
-                    <button
-                      class="btn btn-primary"
-                      data-bs-toggle="modal"
-                      data-bs-target="#modalProducto"
+                    <a href="./error404.html"
+                      ><button
+                        class="btn btn-primary"
+                        data-bs-toggle="modal"
+                        data-bs-target="#modalProducto"
+                      >
+                        Ver más
+                      </button></a
                     >
-                      Ver más
-                    </button>
                   </div>
                 </article>
               </aside>
@@ -305,13 +291,15 @@
                       <strong class="pe-2">T1</strong>- 20/03/2017 - 50 min
                     </h5>
                     <p class="card-text">Capitulo 4</p>
-                    <button
-                      class="btn btn-primary"
-                      data-bs-toggle="modal"
-                      data-bs-target="#modalProducto"
+                    <a href="./error404.html"
+                      ><button
+                        class="btn btn-primary"
+                        data-bs-toggle="modal"
+                        data-bs-target="#modalProducto"
+                      >
+                        Ver más
+                      </button></a
                     >
-                      Ver más
-                    </button>
                   </div>
                 </article>
               </aside>
@@ -328,7 +316,7 @@
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#collapseTwo"
-              aria-expanded="true"
+              aria-expanded="false"
               aria-controls="collapseTwo"
             >
               <strong class="text-white fs-2 py-2">Temporada 2</strong>
@@ -346,7 +334,7 @@
               <aside class="col-md-6 col-lg-3 mb-3">
                 <article class="card text-bg-dark">
                   <img
-                    src="../img/detallesMasterchef/masterchef11.jpg"
+                    src="../img/detallesMasterchef/temporada2-1.jpg"
                     class="card-img-top"
                     alt="imagen de croissant"
                   />
@@ -355,14 +343,15 @@
                       <strong class="pe-2">T2</strong>- 17/03/2018 - 50 min
                     </h5>
                     <p class="card-text">Capitulo 1</p>
-                    <button
-                      class="btn btn-primary"
-                      data-bs-toggle="modal"
-                      data-bs-target="#modalProducto"
-                      data-bs-whatever="@mdo"
+                    <a href="./error404.html"
+                      ><button
+                        class="btn btn-primary"
+                        data-bs-toggle="modal"
+                        data-bs-target="#modalProducto"
+                      >
+                        Ver más
+                      </button></a
                     >
-                      Ver más
-                    </button>
                   </div>
                 </article>
               </aside>
@@ -371,7 +360,7 @@
               <aside class="col-md-6 col-lg-3 mb-3">
                 <article class="card text-bg-dark">
                   <img
-                    src="../img/detallesMasterchef/masterchef12.jpg"
+                    src="../img/detallesMasterchef/temporada2-2.jpg"
                     class="card-img-top"
                     alt="imagen de brioche"
                   />
@@ -380,13 +369,15 @@
                       <strong class="pe-2">T2</strong>- 18/03/2018 - 50 min
                     </h5>
                     <p class="card-text">Capitulo 2</p>
-                    <button
-                      class="btn btn-primary"
-                      data-bs-toggle="modal"
-                      data-bs-target="#modalProducto"
+                    <a href="./error404.html"
+                      ><button
+                        class="btn btn-primary"
+                        data-bs-toggle="modal"
+                        data-bs-target="#modalProducto"
+                      >
+                        Ver más
+                      </button></a
                     >
-                      Ver más
-                    </button>
                   </div>
                 </article>
               </aside>
@@ -395,7 +386,7 @@
               <aside class="col-md-6 col-lg-3 mb-3">
                 <article class="card text-bg-dark">
                   <img
-                    src="../img/detallesMasterchef/masterchef13.jpg"
+                    src="../img/detallesMasterchef/temporada2-3.jpg"
                     class="card-img-top"
                     alt="imagen de croissant"
                   />
@@ -404,13 +395,15 @@
                       <strong class="pe-2">T2</strong>- 19/03/2018 - 50 min
                     </h5>
                     <p class="card-text">Capitulo 3</p>
-                    <button
-                      class="btn btn-primary"
-                      data-bs-toggle="modal"
-                      data-bs-target="#modalProducto"
+                    <a href="./error404.html"
+                      ><button
+                        class="btn btn-primary"
+                        data-bs-toggle="modal"
+                        data-bs-target="#modalProducto"
+                      >
+                        Ver más
+                      </button></a
                     >
-                      Ver más
-                    </button>
                   </div>
                 </article>
               </aside>
@@ -419,7 +412,7 @@
               <aside class="col-md-6 col-lg-3 mb-3">
                 <article class="card text-bg-dark">
                   <img
-                    src="../img/detallesMasterchef/masterchef14.jpg"
+                    src="../img/detallesMasterchef/temporada2-4.jpg"
                     class="card-img-top"
                     alt="imagen de croissant"
                   />
@@ -428,13 +421,15 @@
                       <strong class="pe-2">T2</strong>- 20/03/2018 - 50 min
                     </h5>
                     <p class="card-text">Capitulo 4</p>
-                    <button
-                      class="btn btn-primary"
-                      data-bs-toggle="modal"
-                      data-bs-target="#modalProducto"
+                    <a href="./error404.html"
+                      ><button
+                        class="btn btn-primary"
+                        data-bs-toggle="modal"
+                        data-bs-target="#modalProducto"
+                      >
+                        Ver más
+                      </button></a
                     >
-                      Ver más
-                    </button>
                   </div>
                 </article>
               </aside>
@@ -456,7 +451,7 @@
             <a href="./detallepelicula.html">
               <img
                 class="serie-imagen zoom"
-                src="../img/Gero/peliArgentina1985.jpg"
+                src="../img/series-peliculas-argentinas/peliArgentina1985.jpg"
                 alt="imagen pelicula argentina 1985"
               />
             </a>
@@ -466,7 +461,7 @@
             <a href="./detallepelicula.html">
               <img
                 class="serie-imagen zoom"
-                src="../img/Gero/peliElClan.jpg"
+                src="../img/series-peliculas-argentinas/peliElClan.jpg"
                 alt="imagen pelicula el clan "
               />
             </a>
@@ -476,8 +471,8 @@
             <a href="./detallepelicula.html">
               <img
                 class="serie-imagen zoom"
-                src="../img/Gero/peliElRoboDelSiglo.jpg"
-                alt="imagen seccion vive 3"
+                src="../img/series-peliculas-argentinas/peliElRoboDelSiglo.jpg"
+                alt="imagen pelicula 3"
               />
             </a>
           </div>
@@ -486,8 +481,8 @@
             <a href="./detallepelicula.html">
               <img
                 class="serie-imagen zoom"
-                src="../img/Gero/peliRelatosSalvajes.jpg"
-                alt="imagen seccion vive 4"
+                src="../img/series-peliculas-argentinas/peliRelatosSalvajes.jpg"
+                alt="imagen pelicula 4"
               />
             </a>
           </div>
@@ -499,7 +494,7 @@
       <section class="container">
         <div class="row text-center">
           <aside class="col-md-4 mt-3 mb-2">
-            <a class="navbar-brand" href="./index.html"
+            <a class="navbar-brand" href="./principal.html"
               ><img
                 class="iconoFooter"
                 src="/img/logo.jpeg"
@@ -512,7 +507,7 @@
               <li>
                 <a
                   class="text-decoration-none link-secondary"
-                  href="./pages/Noosotros.html"
+                  href="./nosotros.html"
                   target="_blank"
                   >Acerca de nosotros</a
                 >
@@ -520,7 +515,7 @@
               <li>
                 <a
                   class="text-decoration-none link-secondary"
-                  href="./pages/error404.html"
+                  href="./error404.html"
                   target="_blank"
                   >Preguntas frecuentes</a
                 >
@@ -528,7 +523,7 @@
               <li>
                 <a
                   class="text-decoration-none link-secondary"
-                  href="./pages/error 404"
+                  href="./registro.html"
                   target="_blank"
                   >Suscripciones</a
                 >
@@ -541,7 +536,7 @@
               <li>
                 <a
                   class="text-decoration-none link-secondary"
-                  href="./pages/consultas.html"
+                  href="./contacto.html"
                   target="_blank"
                   >Contactanos</a
                 >
@@ -549,7 +544,7 @@
               <li>
                 <a
                   class="text-decoration-none link-secondary"
-                  href="./pages/error404.html"
+                  href="./error404.html"
                   target="_blank"
                   >Prensa</a
                 >
@@ -557,7 +552,7 @@
               <li>
                 <a
                   class="text-decoration-none link-secondary"
-                  href="./pages/error404.html"
+                  href="./error404.html"
                   target="_blank"
                   >Trabaja con Nosotros</a
                 >
@@ -565,7 +560,7 @@
               <li>
                 <a
                   class="text-decoration-none link-secondary"
-                  href="./pages/error404.html"
+                  href="./error404.html"
                   target="_blank"
                   >Términos de uso</a
                 >
@@ -576,14 +571,14 @@
           <aside class="col-md-4 mt-2 mb-3">
             <h4 class="text-md-start">Seguinos en nuestras redes</h4>
             <div class="text-md-start">
-              <a href="./pages/error404.html" class="link-secondary"
+              <a href="./error404.html" class="link-secondary"
                 ><i class="bi bi-facebook fs-1"></i
               ></a>
 
-              <a href="./pages/error404.html" class="link-secondary"
+              <a href="./error404.html" class="link-secondary"
                 ><i class="bi bi-instagram fs-1 mx-3"></i
               ></a>
-              <a href="./pages/error404.html" class="link-secondary"
+              <a href="./error404.html" class="link-secondary"
                 ><i class="bi bi-twitter fs-1 me-3"></i
               ></a>
             </div>

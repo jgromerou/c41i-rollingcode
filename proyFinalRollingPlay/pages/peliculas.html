@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ProyFinal1</title>
+    <title>RollingPlay</title>
     <meta name="keywords" content="ProyFinal" />
     <meta name="author" content="equipo1" />
     <meta name="description" content="proyFinal1" />
@@ -17,7 +17,7 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top p-3">
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top p-1">
         <div class="container">
           <a class="navbar-brand" href="./principal.html"
             ><img class="iconNavbar" src="../img/logo.jpeg" alt="iconNavbar"
@@ -35,13 +35,13 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item mx-3">
+              <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="./peliculas.html"
                   >PELÍCULAS</a
                 >
               </li>
 
-              <li class="nav-item me-3">
+              <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="./series.html"
                   >SERIES</a
                 >
@@ -59,52 +59,32 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="./generos/generoAccion0.html"
+                    <a
+                      class="dropdown-item"
+                      href="/pages/generos/generoAccion0.html"
                       >ACCIÓN</a
                     >
                   </li>
+
                   <li>
                     <a
                       class="dropdown-item"
-                      href="./generos/generoAventura0.html"
-                      >AVENTURA</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item"
-                      href="./generos/generoCiencia0.html"
-                      >CIENCIA FICCIÓN
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item"
-                      href="./generos/generoComedia0.html"
+                      href="/pages/generos/generoComedia0.html"
                       >COMEDIA</a
                     >
                   </li>
+
                   <li>
                     <a
                       class="dropdown-item"
-                      href="./generos/generoDocumental0.html"
-                      >DOCUMENTAL</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="./generos/generoDrama0.html"
-                      >DRAMA</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item"
-                      href="./generos/generoRomantica0.html"
+                      href="/pages/generos/generoRomantica0.html"
                       >ROMÁNTICAS</a
                     >
                   </li>
                   <li>
-                    <a class="dropdown-item" href="./generos/generoTerror0.html"
+                    <a
+                      class="dropdown-item"
+                      href="/pages/generos/generoTerror0.html"
                       >TERROR</a
                     >
                   </li>
@@ -125,7 +105,7 @@
               >
                 <i class="bi bi-search fs-4"></i>
               </a>
-              <div class="dropdown ms-5">
+              <div class="dropdown ms-5 pb-2">
                 <button
                   class="btn btn-primary dropdown-toggle fs-4 text-uppercase"
                   type="button"
@@ -137,12 +117,12 @@
                 <ul class="dropdown-menu">
                   <li>
                     <button class="dropdown-item" type="button">
-                      <a href="./error404.html">Mi Cuenta</a>
+                      <a href="/pages/error404.html">Mi Cuenta</a>
                     </button>
                   </li>
                   <li>
                     <button class="dropdown-item" type="button">
-                      <a href="./error404.html">Ayuda</a>
+                      <a href="/pages/error404.html">Ayuda</a>
                     </button>
                   </li>
                   <li>
@@ -158,8 +138,10 @@
       </nav>
     </header>
 
-    <main class="container my-4" id="main">
-      <h1 class="titulosInicio display-1 text-center titulos">Peliculas</h1>
+    <main class="container my-5" id="main">
+      <h1 class="titulosInicio display-1 text-center titulos text-uppercase">
+        Peliculas
+      </h1>
       <hr />
       <h2 class="titulos">
         Seleccionar por pais:
@@ -175,7 +157,7 @@
         <aside class="col-md-6 col-lg-3 mb-3">
           <a href="/pages/detallepelicula.html"
             ><img
-              src="../img/Gero/peliCuestionDePrincipios.jpg"
+              src="../img/series-peliculas-argentinas/peliCuestionDePrincipios.jpg"
               class="card card-img-top"
               alt="Pelicula Argentina 1895"
           /></a>
@@ -184,7 +166,7 @@
         <aside class="col-md-6 col-lg-3 mb-3">
           <a href="/pages/detallepelicula.html"
             ><img
-              src="../img/Gero/peliArgentina1985.jpg"
+              src="../img/series-peliculas-argentinas/peliArgentina1985.jpg"
               class="card card-img-top"
               alt="Pelicula Argentina 1895"
           /></a>
@@ -192,7 +174,7 @@
         <aside class="col-md-6 col-lg-3 mb-3">
           <a href="/pages/detallepelicula.html"
             ><img
-              src="../img/Gero/peliElClan.jpg"
+              src="../img/series-peliculas-argentinas/peliElClan.jpg"
               class="card card-img-top"
               alt="Pelicula Argentina 1895"
           /></a>
@@ -200,7 +182,7 @@
         <aside class="col-md-6 col-lg-3 mb-3">
           <a href="/pages/detallepelicula.html"
             ><img
-              src="../img/Gero/peliElRoboDelSiglo.jpg"
+              src="../img/series-peliculas-argentinas/peliElRoboDelSiglo.jpg"
               class="card card-img-top"
               alt="Pelicula Argentina 1895"
           /></a>
@@ -208,7 +190,7 @@
         <aside class="col-md-6 col-lg-3 mb-3">
           <a href="/pages/detallepelicula.html"
             ><img
-              src="../img/Gero/peliElSecretoDeSusOjos.jpg"
+              src="../img/series-peliculas-argentinas/peliElSecretoDeSusOjos.jpg"
               class="card card-img-top"
               alt="Pelicula Argentina 1895"
           /></a>
@@ -216,7 +198,7 @@
         <aside class="col-md-6 col-lg-3 mb-3">
           <a href="/pages/detallepelicula.html"
             ><img
-              src="../img/Gero/peliLaHisotriaOficial.jpg"
+              src="../img/series-peliculas-argentinas/peliLaHisotriaOficial.jpg"
               class="card card-img-top"
               alt="Pelicula Argentina 1895"
           /></a>
@@ -224,7 +206,7 @@
         <aside class="col-md-6 col-lg-3 mb-3">
           <a href="/pages/detallepelicula.html"
             ><img
-              src="../img/Gero/peliLaOdiseaDeLosGiles.jpg"
+              src="../img/series-peliculas-argentinas/peliLaOdiseaDeLosGiles.jpg"
               class="card card-img-top"
               alt="Pelicula Argentina 1895"
           /></a>
@@ -232,7 +214,7 @@
         <aside class="col-md-6 col-lg-3 mb-3">
           <a href="/pages/detallepelicula.html"
             ><img
-              src="../img/Gero/peliRelatosSalvajes.jpg"
+              src="../img/series-peliculas-argentinas/peliRelatosSalvajes.jpg"
               class="card card-img-top"
               alt="Pelicula Argentina 1895"
           /></a>
@@ -241,207 +223,213 @@
 
       <section class="row">
         <hr />
-        <h3 id="Brasilera" class="text-center titulos">Peliculas Brasileras</h3>
+        <h3 id="Brasilera" class="text-center titulos pt-5 mt-5">
+          Peliculas Brasileras
+        </h3>
         <aside class="col-md-6 col-lg-3 mb-3">
           <a href="/pages/detallepelicula.html"
             ><img
-              src="../img/Gero/peliCuestionDePrincipios.jpg"
+              src="../img/series-peliculas-brasilenias/peliculaBrasilenia1.jpg"
               class="card card-img-top"
-              alt="Pelicula Argentina 1895"
+              alt="Pelicula Brasilenia 1"
           /></a>
         </aside>
         <aside class="col-md-6 col-lg-3 mb-3">
           <a href="/pages/detallepelicula.html"
             ><img
-              src="../img/Gero/peliArgentina1985.jpg"
+              src="../img/series-peliculas-brasilenias/peliculaBrasilenia2.jpg"
               class="card card-img-top"
-              alt="Pelicula Argentina 1895"
+              alt="Pelicula Brasilenia 2"
           /></a>
         </aside>
         <aside class="col-md-6 col-lg-3 mb-3">
           <a href="/pages/detallepelicula.html"
             ><img
-              src="../img/Gero/peliElClan.jpg"
+              src="../img/series-peliculas-brasilenias/peliculaBrasilenia3.jpg"
               class="card card-img-top"
-              alt="Pelicula Argentina 1895"
+              alt="Pelicula Brasilenia 3"
           /></a>
         </aside>
         <aside class="col-md-6 col-lg-3 mb-3">
           <a href="/pages/detallepelicula.html"
             ><img
-              src="../img/Gero/peliElRoboDelSiglo.jpg"
+              src="../img/series-peliculas-brasilenias/peliculaBrasilenia4.jpg"
               class="card card-img-top"
-              alt="Pelicula Argentina 1895"
+              alt="Pelicula Brasilenia 4"
           /></a>
         </aside>
         <aside class="col-md-6 col-lg-3 mb-3">
           <a href="/pages/detallepelicula.html"
             ><img
-              src="../img/Gero/peliElSecretoDeSusOjos.jpg"
+              src="../img/series-peliculas-brasilenias/peliculaBrasilenia5.jpg"
               class="card card-img-top"
-              alt="Pelicula Argentina 1895"
+              alt="Pelicula Brasilenia 5"
           /></a>
         </aside>
         <aside class="col-md-6 col-lg-3 mb-3">
           <a href="/pages/detallepelicula.html"
             ><img
-              src="../img/Gero/peliLaHisotriaOficial.jpg"
+              src="../img/series-peliculas-brasilenias/peliculaBrasilenia6.jpg"
               class="card card-img-top"
-              alt="Pelicula Argentina 1895"
+              alt="Pelicula Brasilenia 6"
           /></a>
         </aside>
         <aside class="col-md-6 col-lg-3 mb-3">
           <a href="/pages/detallepelicula.html"
             ><img
-              src="../img/Gero/peliLaOdiseaDeLosGiles.jpg"
+              src="../img/series-peliculas-brasilenias/peliculaBrasilenia7.jpg"
               class="card card-img-top"
-              alt="Pelicula Argentina 1895"
+              alt="Pelicula Brasilenia 7"
           /></a>
         </aside>
         <aside class="col-md-6 col-lg-3 mb-3">
           <a href="/pages/detallepelicula.html"
             ><img
-              src="../img/Gero/peliRelatosSalvajes.jpg"
+              src="../img/series-peliculas-brasilenias/peliculaBrasilenia8.jpg"
               class="card card-img-top"
-              alt="Pelicula Argentina 1895"
-          /></a>
-        </aside>
-      </section>
-
-      <section class="row">
-        <hr />
-        <h3 id="Uruguaya" class="text-center titulos">Peliculas Uruguayas</h3>
-        <aside class="col-md-6 col-lg-3 mb-3">
-          <a href="/pages/detallepelicula.html"
-            ><img
-              src="../img/Gero/peliCuestionDePrincipios.jpg"
-              class="card card-img-top"
-              alt="Pelicula Argentina 1895"
-          /></a>
-        </aside>
-        <aside class="col-md-6 col-lg-3 mb-3">
-          <a href="/pages/detallepelicula.html"
-            ><img
-              src="../img/Gero/peliArgentina1985.jpg"
-              class="card card-img-top"
-              alt="Pelicula Argentina 1895"
-          /></a>
-        </aside>
-        <aside class="col-md-6 col-lg-3 mb-3">
-          <a href="/pages/detallepelicula.html"
-            ><img
-              src="../img/Gero/peliElClan.jpg"
-              class="card card-img-top"
-              alt="Pelicula Argentina 1895"
-          /></a>
-        </aside>
-        <aside class="col-md-6 col-lg-3 mb-3">
-          <a href="/pages/detallepelicula.html"
-            ><img
-              src="../img/Gero/peliElRoboDelSiglo.jpg"
-              class="card card-img-top"
-              alt="Pelicula Argentina 1895"
-          /></a>
-        </aside>
-        <aside class="col-md-6 col-lg-3 mb-3">
-          <a href="/pages/detallepelicula.html"
-            ><img
-              src="../img/Gero/peliElSecretoDeSusOjos.jpg"
-              class="card card-img-top"
-              alt="Pelicula Argentina 1895"
-          /></a>
-        </aside>
-        <aside class="col-md-6 col-lg-3 mb-3">
-          <a href="/pages/detallepelicula.html"
-            ><img
-              src="../img/Gero/peliLaHisotriaOficial.jpg"
-              class="card card-img-top"
-              alt="Pelicula Argentina 1895"
-          /></a>
-        </aside>
-        <aside class="col-md-6 col-lg-3 mb-3">
-          <a href="/pages/detallepelicula.html"
-            ><img
-              src="../img/Gero/peliLaOdiseaDeLosGiles.jpg"
-              class="card card-img-top"
-              alt="Pelicula Argentina 1895"
-          /></a>
-        </aside>
-        <aside class="col-md-6 col-lg-3 mb-3">
-          <a href="/pages/detallepelicula.html"
-            ><img
-              src="../img/Gero/peliRelatosSalvajes.jpg"
-              class="card card-img-top"
-              alt="Pelicula Argentina 1895"
+              alt="Pelicula Brasilenia 8"
           /></a>
         </aside>
       </section>
 
       <section class="row">
         <hr />
-        <h3 id="Chilena" class="text-center titulos">Peliculas Chilenas</h3>
+        <h3 id="Uruguaya" class="text-center titulos pt-5 mt-5">
+          Peliculas Uruguayas
+        </h3>
         <aside class="col-md-6 col-lg-3 mb-3">
           <a href="/pages/detallepelicula.html"
             ><img
-              src="../img/Gero/peliCuestionDePrincipios.jpg"
+              src="../img/series-peliculas-uruguayas/Peliculas/Peliculas uruguayas/26991.jpg"
               class="card card-img-top"
-              alt="Pelicula Argentina 1895"
+              alt="Pelicula Uruguay 1"
           /></a>
         </aside>
         <aside class="col-md-6 col-lg-3 mb-3">
           <a href="/pages/detallepelicula.html"
             ><img
-              src="../img/Gero/peliArgentina1985.jpg"
+              src="../img/series-peliculas-uruguayas/Peliculas/Peliculas uruguayas/cartel-de-whisky.jpg"
               class="card card-img-top"
-              alt="Pelicula Argentina 1895"
+              alt="Pelicula Uruguay 2"
           /></a>
         </aside>
         <aside class="col-md-6 col-lg-3 mb-3">
           <a href="/pages/detallepelicula.html"
             ><img
-              src="../img/Gero/peliElClan.jpg"
+              src="../img/series-peliculas-uruguayas/Peliculas/Peliculas uruguayas/El dirigible - Cartel Dotta.jpg"
               class="card card-img-top"
-              alt="Pelicula Argentina 1895"
+              alt="Pelicula Uruguay 3"
           /></a>
         </aside>
         <aside class="col-md-6 col-lg-3 mb-3">
           <a href="/pages/detallepelicula.html"
             ><img
-              src="../img/Gero/peliElRoboDelSiglo.jpg"
+              src="../img/series-peliculas-uruguayas/Peliculas/Peliculas uruguayas/El viaje hacia el mar - Cartel uruguayo.jpg"
               class="card card-img-top"
-              alt="Pelicula Argentina 1895"
+              alt="Pelicula Uruguay 4"
           /></a>
         </aside>
         <aside class="col-md-6 col-lg-3 mb-3">
           <a href="/pages/detallepelicula.html"
             ><img
-              src="../img/Gero/peliElSecretoDeSusOjos.jpg"
+              src="../img/series-peliculas-uruguayas/Peliculas/Peliculas uruguayas/El viñedo - Cartel uruguayo.jpg"
               class="card card-img-top"
-              alt="Pelicula Argentina 1895"
+              alt="Pelicula Uruguay 5"
           /></a>
         </aside>
         <aside class="col-md-6 col-lg-3 mb-3">
           <a href="/pages/detallepelicula.html"
             ><img
-              src="../img/Gero/peliLaHisotriaOficial.jpg"
+              src="../img/series-peliculas-uruguayas/Peliculas/Peliculas uruguayas/En la puta vida - Cartel.jpg"
               class="card card-img-top"
-              alt="Pelicula Argentina 1895"
+              alt="Pelicula Uruguay 6"
           /></a>
         </aside>
         <aside class="col-md-6 col-lg-3 mb-3">
           <a href="/pages/detallepelicula.html"
             ><img
-              src="../img/Gero/peliLaOdiseaDeLosGiles.jpg"
+              src="../img/series-peliculas-uruguayas/Peliculas/Peliculas uruguayas/Mr. Kaplan - Cartel.jpg"
               class="card card-img-top"
-              alt="Pelicula Argentina 1895"
+              alt="Pelicula Uruguay 7"
           /></a>
         </aside>
         <aside class="col-md-6 col-lg-3 mb-3">
           <a href="/pages/detallepelicula.html"
             ><img
-              src="../img/Gero/peliRelatosSalvajes.jpg"
+              src="../img/series-peliculas-uruguayas/Peliculas/Peliculas uruguayas/t_2019-08-19_27.jpg"
               class="card card-img-top"
-              alt="Pelicula Argentina 1895"
+              alt="Pelicula Uruguay 8"
+          /></a>
+        </aside>
+      </section>
+
+      <section class="row">
+        <hr />
+        <h3 id="Chilena" class="text-center titulos pt-5 mt-5">
+          Peliculas Chilenas
+        </h3>
+        <aside class="col-md-6 col-lg-3 mb-3">
+          <a href="/pages/detallepelicula.html"
+            ><img
+              src="../img/series-peliculas-chilenas/Peliculas/pelicula-accion-chilena.jpg"
+              class="card card-img-top"
+              alt="Pelicula Chilena 1"
+          /></a>
+        </aside>
+        <aside class="col-md-6 col-lg-3 mb-3">
+          <a href="/pages/detallepelicula.html"
+            ><img
+              src="../img/series-peliculas-chilenas/Peliculas/pelicula-accion2-chilena.jpg"
+              class="card card-img-top"
+              alt="Pelicula Chilena 2"
+          /></a>
+        </aside>
+        <aside class="col-md-6 col-lg-3 mb-3">
+          <a href="/pages/detallepelicula.html"
+            ><img
+              src="../img/series-peliculas-chilenas/Peliculas/pelicula-accionOcomedia-chilena.jpg"
+              class="card card-img-top"
+              alt="Pelicula Chilena 3"
+          /></a>
+        </aside>
+        <aside class="col-md-6 col-lg-3 mb-3">
+          <a href="/pages/detallepelicula.html"
+            ><img
+              src="../img/series-peliculas-chilenas/Peliculas/pelicula-comedia-chilena.jpg"
+              class="card card-img-top"
+              alt="Pelicula Chilena 4"
+          /></a>
+        </aside>
+        <aside class="col-md-6 col-lg-3 mb-3">
+          <a href="/pages/detallepelicula.html"
+            ><img
+              src="../img/series-peliculas-chilenas/Peliculas/pelicula-comedia2-chilena.jpg"
+              class="card card-img-top"
+              alt="Pelicula Chilena 5"
+          /></a>
+        </aside>
+        <aside class="col-md-6 col-lg-3 mb-3">
+          <a href="/pages/detallepelicula.html"
+            ><img
+              src="../img/series-peliculas-chilenas/Peliculas/pelicula-comedia3-chilena.jpg"
+              class="card card-img-top"
+              alt="Pelicula Chilena 6"
+          /></a>
+        </aside>
+        <aside class="col-md-6 col-lg-3 mb-3">
+          <a href="/pages/detallepelicula.html"
+            ><img
+              src="../img/series-peliculas-chilenas/Peliculas/pelicula-comedia4-chilena.jpg"
+              class="card card-img-top"
+              alt="Pelicula Chilena 7"
+          /></a>
+        </aside>
+        <aside class="col-md-6 col-lg-3 mb-3">
+          <a href="/pages/detallepelicula.html"
+            ><img
+              src="../img/series-peliculas-chilenas/Peliculas/pelicula-romance-chilena.jpg"
+              class="card card-img-top"
+              alt="Pelicula Chilena 8"
           /></a>
         </aside>
       </section>
@@ -451,7 +439,7 @@
       <section class="container">
         <div class="row text-center">
           <aside class="col-md-4 mt-3 mb-2">
-            <a class="navbar-brand" href="../index.html"
+            <a class="navbar-brand" href="./principal.html"
               ><img
                 class="iconoFooter"
                 src="/img/logo.jpeg"
